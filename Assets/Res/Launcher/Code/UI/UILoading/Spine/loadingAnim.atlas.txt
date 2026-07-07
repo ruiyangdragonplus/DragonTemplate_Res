@@ -1,0 +1,9 @@
+loadingAnim.png
+size:284,2040
+filter:Linear,Linear
+scale:0.9
+image/vertical
+bounds:189,355,91,1681
+offsets:1,37,92,2250
+image/yuan
+bounds:1,1,187,2035
