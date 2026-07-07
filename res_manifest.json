@@ -1,7 +1,8 @@
 {
-  "comment": "Res→Game 声明式同步映射。唯一合法同步规则来源；Tools/sync_res.sh 与 BuildEntry -task SyncRes 共用。mode: mirror=删除目标多余文件, copy=只增量覆盖",
+  "comment": "Res→Game 声明式同步映射（唯一合法规则来源；Tools/sync_res.sh 与 BuildEntry -task SyncRes 共用）。mode: link=目录链接（默认，主工程内修改即直接修改 Res 子模块，可在 Res 直接提交）; mirror=拷贝镜像（仅用于加密/生成等加工产物，目标视为只读生成物）",
   "syncs": [
-    { "from": "Assets/Configs",      "to": "Game/Assets/Game/ConfigsMirror", "mode": "mirror" },
-    { "from": "Assets/Localization", "to": "Game/Assets/Game/Localization",  "mode": "mirror" }
+    { "from": "Assets/Configs",      "to": "Game/Assets/Game/Configs",      "mode": "link" },
+    { "from": "Assets/Localization", "to": "Game/Assets/Game/Localization", "mode": "link" },
+    { "from": "Assets/Art",          "to": "Game/Assets/Game/Art",          "mode": "link" }
   ]
 }

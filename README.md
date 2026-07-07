@@ -20,6 +20,14 @@ Res/
 └── res_manifest.json               # Res→Game 声明式同步映射（Tools/sync_res.sh 与 -task SyncRes 共用）
 ```
 
+## 同步模式：link（默认）与 mirror
+
+- **link**：主工程内的 `Game/Assets/Game/{Configs,Localization,Art}` 是指向本仓库对应目录的**目录链接**
+  （Windows junction / Mac symlink，由 `Tools/sync_res.sh` 依 res_manifest.json 自动建立）。
+  在主工程 Unity 里修改这些资源 = 直接修改本仓库工作区文件，`cd Res && git add && git commit` 即可提交——
+  与现有项目的软链工作流一致，只是链接关系收敛到清单统一管理。资源与 .meta 都提交在本仓库。
+- **mirror**：拷贝模式，仅用于加密/生成等加工产物；目标目录是只读生成物。
+
 ## 归属判据（FRAMEWORK_RULES.md 第 6 条）
 
 - 运行时经 `IAssetSystem` 加载的一切 → Res 工程
