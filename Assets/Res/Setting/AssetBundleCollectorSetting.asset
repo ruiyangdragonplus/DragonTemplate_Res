@@ -46,10 +46,18 @@ MonoBehaviour:
         AssetTags: 
         UserData: TopTag
     - GroupName: ModuleGroup
-      GroupDesc: 
+      GroupDesc:
       AssetTags: INIT_PACKAGE
       ActiveRuleName: EnableGroup
       Collectors:
+      - CollectPath: Assets/Res/Module
+        CollectorGUID: 98bdaaf3ca85c46e9a1efb079f0f3890
+        CollectorType: 0
+        AddressRuleName: AddressByFileName
+        PackRuleName: PackDirectory
+        FilterRuleName: CollectAll
+        AssetTags:
+        UserData: TopTag
     - GroupName: GuideGroup
       GroupDesc: 
       AssetTags: INIT_PACKAGE
