@@ -1,0 +1,2 @@
+*.sh   text eol=lf
+Assets/Configs/** linguist-generated=true

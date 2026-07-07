@@ -1,0 +1,8 @@
+# 本仓库若作为 Unity 工程打开（美术迭代用），忽略 Unity 派生目录
+[Ll]ibrary/
+[Tt]emp/
+[Oo]bj/
+[Ll]ogs/
+[Uu]serSettings/
+.DS_Store
+Thumbs.db

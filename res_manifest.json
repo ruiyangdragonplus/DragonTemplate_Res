@@ -1,0 +1,7 @@
+{
+  "comment": "Res→Game 声明式同步映射。唯一合法同步规则来源；Tools/sync_res.sh 与 BuildEntry -task SyncRes 共用。mode: mirror=删除目标多余文件, copy=只增量覆盖",
+  "syncs": [
+    { "from": "Assets/Configs",      "to": "Game/Assets/Game/ConfigsMirror", "mode": "mirror" },
+    { "from": "Assets/Localization", "to": "Game/Assets/Game/Localization",  "mode": "mirror" }
+  ]
+}
