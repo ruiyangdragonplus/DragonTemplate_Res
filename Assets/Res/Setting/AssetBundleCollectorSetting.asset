@@ -58,13 +58,3 @@ MonoBehaviour:
         FilterRuleName: CollectAll
         AssetTags:
         UserData: TopTag
-    - GroupName: GuideGroup
-      GroupDesc: 
-      AssetTags: INIT_PACKAGE
-      ActiveRuleName: EnableGroup
-      Collectors:
-    - GroupName: ColorBean
-      GroupDesc: 
-      AssetTags: 
-      ActiveRuleName: EnableGroup
-      Collectors:
