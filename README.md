@@ -20,6 +20,17 @@ Res/
 └── res_manifest.json               # Res→Game 声明式同步映射（Tools/sync_res.sh 与 -task SyncRes 共用）
 ```
 
+## 美术工程（无明文代码）
+
+主仓 dll 流水线（`Jenkins/dll.jenkinsfile`）会把 ExportDllFixGuid + Obfuscar 产物推送到本仓 `Obfuscated/`：
+`Dll/`（混淆后的全部程序集 + GUID 映射）+ `Files/`（工程壳：**空 .cs + 原 GUID meta** + 场景/设置/ThirdParty）。
+
+美术 clone 本仓库后执行 `Tools/setup_art_project.sh`，组装出可用 Unity 打开的 `ArtProject/`：
+业务/框架代码只有混淆 DLL（无明文），美术资源经目录链接指向本仓 `Assets/Res` 真实源——改完直接 git 提交。
+
+> ⚠️ 首次投产前需联调：prefab 脚本引用的 GUID 映射重写（DllGuidMap/unity-art-encrypt）与空壳 asmdef
+> 同名冲突处理，见 setup_art_project.sh 内注释。
+
 ## 同步模式：link（默认）与 mirror
 
 - **link**：主工程内的 `Game/Assets/Game/{Configs,Localization,Art}` 是指向本仓库对应目录的**目录链接**
