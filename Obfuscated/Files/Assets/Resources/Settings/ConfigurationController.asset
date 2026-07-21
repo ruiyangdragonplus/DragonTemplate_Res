@@ -1,0 +1,55 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 550747366, guid: 6139cc7ad1507431a868002f47317c11, type: 3}
+  m_Name: ConfigurationController
+  m_EditorClassIdentifier: DragonPlus.Core.dll::DragonPlus.Core.ConfigurationController
+  version: 1
+  Company_Name: Unlimited Legend Limited
+  Product_Name: Happy Jewel Explorer
+  API_Config_Class_Name: BiEventColorBean1
+  API_Server_URL_Release: https://color-bean1-api.unlimitedlegend.com
+  API_Server_Secret_Release: TKysqgiw6XO7vhJSQrpwaiVESIokvvUZzc3sLcpe
+  API_Server_Timeout_Release: 15
+  API_Server_URL_Beta: https://color-bean1-api-alpha.dragonplus.net
+  API_Server_Secret_Beta: foobar
+  API_Server_Timeout_Beta: 15
+  Event_Server_URL_Release: 
+  Event_Server_URL_Beta: 
+  Socket_IO_Enabled: 0
+  Res_Server_URL_Release: https://res.unlimitedlegend.com/colorbean1/
+  Res_Server_URL_Beta: https://res.dragonplus.vip/colorbean1/
+  Chat_App_Id_Release: 
+  Chat_App_Id_Beta: 
+  AndroidKeyStoreUseConfiguration: 1
+  AndroidKeyStorePath: /Users/dragonplus/unlimitedlegend.keystore
+  AndroidKeyStorePass: unlimited123
+  AndroidKeyStoreAlias: unlimitedlegend.keystore
+  AndroidKeyStoreAliasPass: unlimited123
+  _AesKey: 106c4de6e20b9229
+  _RC4Key: 
+  kUserPermissionLoginToken: 1
+  kUserPermissionBasicInfo: 1
+  kUserPermissionPublish: 0
+  kUserPermissionFriendList: 0
+  iOSAddPushNotification: 1
+  iOSAddSignInWithApple: 1
+  AESToolPath: 
+  UPDATE_URL: https://app.adjust.com/1zc2slla
+  PrivacyPolicyURL: https://www.unlimitedlegend.com/privacypolicy/
+  TermsOfServiceURL: https://www.unlimitedlegend.com/terms/
+  DebugBuildAppBundle: 0
+  ReleaseBuildAppBundle: 0
+  iOSAutomaticSigning: 0
+  iOSDebugCodeSignIdentity: 'iPhone Developer: public public (Z5UU4WYRGM)'
+  iOSDebugManualProvisioningProfileID: 81997225-e20d-49f3-ae1c-d117bbcdbff9
+  iOSReleaseCodeSignIdentity: 'iPhone Distribution: Unlimited Legend Limited (Q82L69BR8T)'
+  iOSReleaseManualProvisioningProfileID: 699cb882-4383-46f7-bd25-3789f3369558

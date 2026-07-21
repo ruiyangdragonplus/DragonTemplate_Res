@@ -1,0 +1,19 @@
+{
+  "name": "Dragon.Provider.HotUpdate.None",
+  "rootNamespace": "Dragon.Provider.HotUpdateNone",
+  "references": [
+    "Dragon.Core",
+    "UniTask"
+  ],
+  "includePlatforms": [],
+  "excludePlatforms": [],
+  "allowUnsafeCode": false,
+  "overrideReferences": false,
+  "precompiledReferences": [],
+  "autoReferenced": false,
+  "defineConstraints": [
+    "DRAGON_HOTUPDATE_NONE"
+  ],
+  "versionDefines": [],
+  "noEngineReferences": false
+}

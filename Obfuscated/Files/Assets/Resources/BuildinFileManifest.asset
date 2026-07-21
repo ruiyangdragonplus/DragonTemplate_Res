@@ -1,0 +1,48 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a394a3e676032a43bd02042b2e6ffe3, type: 3}
+  m_Name: BuildinFileManifest
+  m_EditorClassIdentifier: YooAsset.Extension::BuildinFileManifest
+  BuildinFiles:
+  - PackageName: assets
+    FileName: 0aa1471b2964a520fa119f3d998dd90c.bundle
+    FileCRC32: eac52969
+  - PackageName: assets
+    FileName: 1922d601c7cc9f9c1872ebac2b806f2a.bundle
+    FileCRC32: 4e163ce7
+  - PackageName: assets
+    FileName: 64ba34121a2d64803cb1b797a939ea25.bundle
+    FileCRC32: 146963c0
+  - PackageName: assets
+    FileName: 673f9d0ee264531b0200b39e663b5b3c.bundle
+    FileCRC32: 3769e2f3
+  - PackageName: assets
+    FileName: 761c43029c654e8286ffd2af9118af6f.bundle
+    FileCRC32: 486c7f55
+  - PackageName: assets
+    FileName: 885b69a0407b32719ed2f2e9701c8ae2.bundle
+    FileCRC32: b612f763
+  - PackageName: assets
+    FileName: 99c512e28a5060d21e296808505bcbe5.bundle
+    FileCRC32: 2cad293c
+  - PackageName: assets
+    FileName: bfd3955791df3535dcedb1edfbb97362.bundle
+    FileCRC32: 3a1d16af
+  - PackageName: assets
+    FileName: d9ccda769f500feef397e927bce11b38.bundle
+    FileCRC32: 09a8ce92
+  - PackageName: assets
+    FileName: f0ae94eaaf81efd796ac4d0d9e349779.bundle
+    FileCRC32: d80e17af
+  - PackageName: assets
+    FileName: f8d7ce324f5ab7dd2673155129767b72.bundle
+    FileCRC32: bd6b2b65

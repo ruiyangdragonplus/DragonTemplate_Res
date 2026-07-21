@@ -1,0 +1,17 @@
+{
+    "name": "Dragon.Framework",
+    "rootNamespace": "Dragon.Framework",
+    "references": [
+        "Dragon.Core",
+        "UniTask"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

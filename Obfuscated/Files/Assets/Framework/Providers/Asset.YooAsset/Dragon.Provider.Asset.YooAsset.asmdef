@@ -1,0 +1,21 @@
+{
+    "name": "Dragon.Provider.Asset.YooAsset",
+    "rootNamespace": "Dragon.Provider.AssetYooAsset",
+    "references": [
+        "Dragon.Core",
+        "UniTask",
+        "YooAsset",
+        "YooAsset.Extension"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": false,
+    "defineConstraints": [
+        "DRAGON_ASSET_YOOASSET"
+    ],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

@@ -1,0 +1,1052 @@
+{
+  "Dragon.Core.GameComposition": {
+    "fullName": "Dragon.Core.GameComposition",
+    "fileID": 11500000,
+    "guid": "55ba503c6978a684a823462542f7f498"
+  },
+  "Dragon.Core.SystemManifest": {
+    "fullName": "Dragon.Core.SystemManifest",
+    "fileID": 11500000,
+    "guid": "0748fce585c51a3489806a270d2b26fc"
+  },
+  "Dragon.Build.BuildProfile": {
+    "fullName": "Dragon.Build.BuildProfile",
+    "fileID": 11500000,
+    "guid": "880169bcfc3d43141baefb8dd1652aa2"
+  },
+  "DragonPlus.Automation.Edtior.BuildTool": {
+    "fullName": "DragonPlus.Automation.Edtior.BuildTool",
+    "fileID": 11500000,
+    "guid": "b6e7912146d404903af266e3eece8fcb"
+  },
+  "RandomCodeGenerator": {
+    "fullName": "RandomCodeGenerator",
+    "fileID": 11500000,
+    "guid": "f92e675a455264a4586ad598e42cdb81"
+  },
+  "DragonCD3.Editor.EditorPreference": {
+    "fullName": "DragonCD3.Editor.EditorPreference",
+    "fileID": 11500000,
+    "guid": "4c86dca33834f47e0b65ea2e6e35362c"
+  },
+  "CustomScrollRectEditor": {
+    "fullName": "CustomScrollRectEditor",
+    "fileID": 11500000,
+    "guid": "2f44733bc803e4302ab8738c844faf2c"
+  },
+  "DragonCD3.RedPoint.Editor.RedPointBindingInspector": {
+    "fullName": "DragonCD3.RedPoint.Editor.RedPointBindingInspector",
+    "fileID": 11500000,
+    "guid": "73859002b860049c5bb72d4c4d3197e6"
+  },
+  "DragonCD3.RedPoint.Editor.RedPointPathEditor": {
+    "fullName": "DragonCD3.RedPoint.Editor.RedPointPathEditor",
+    "fileID": 11500000,
+    "guid": "17364b9d66790466a98350ca2027638f"
+  },
+  "DragonCD3.RedPoint.Editor.RedPointProfiler": {
+    "fullName": "DragonCD3.RedPoint.Editor.RedPointProfiler",
+    "fileID": 11500000,
+    "guid": "5c6c6c4b8cb54494099dd43ecf4be0f7"
+  },
+  "DragonCD3.RedPoint.Editor.RedPointPreference": {
+    "fullName": "DragonCD3.RedPoint.Editor.RedPointPreference",
+    "fileID": 11500000,
+    "guid": "cda659806af104f968b3a272d0444977"
+  },
+  "DragonCD3.Localization.Editor.LocalizationPreference": {
+    "fullName": "DragonCD3.Localization.Editor.LocalizationPreference",
+    "fileID": 11500000,
+    "guid": "79619cc55a0c34628b76ce55c14656a9"
+  },
+  "DragonCD3.Localization.Editor.LocalizationTextEditor": {
+    "fullName": "DragonCD3.Localization.Editor.LocalizationTextEditor",
+    "fileID": 11500000,
+    "guid": "01a6ff228f53c48a58aa4e3117a7617d"
+  },
+  "DragonCD3.Localization.Editor.TextMeshProUGUIEditor": {
+    "fullName": "DragonCD3.Localization.Editor.TextMeshProUGUIEditor",
+    "fileID": 11500000,
+    "guid": "babd5d08d2135445f8db6943a136c0af"
+  },
+  "DragonCD3.UI.Editor.UIPreference": {
+    "fullName": "DragonCD3.UI.Editor.UIPreference",
+    "fileID": 11500000,
+    "guid": "5754be4b9b0ae40f0ad822d536e5cbe4"
+  },
+  "DragonCD3.RedPoint.RedPointBinding": {
+    "fullName": "DragonCD3.RedPoint.RedPointBinding",
+    "fileID": 11500000,
+    "guid": "507146ef54f42442fb7d3a9823da8610"
+  },
+  "DragonCD3.RedPoint.RedPointSimple": {
+    "fullName": "DragonCD3.RedPoint.RedPointSimple",
+    "fileID": 11500000,
+    "guid": "75851615c30af4c11bb64dd56554a915"
+  },
+  "DragonCD3.RedPoint.RedPointSimpleCount": {
+    "fullName": "DragonCD3.RedPoint.RedPointSimpleCount",
+    "fileID": 11500000,
+    "guid": "adec3bdebec6941dbbf63d89fa3905f0"
+  },
+  "DragonCD3.RedPoint.RedPointSimpleMix": {
+    "fullName": "DragonCD3.RedPoint.RedPointSimpleMix",
+    "fileID": 11500000,
+    "guid": "67f349467461f489e9aae8c39baedd35"
+  },
+  "DragonCD3.RedPoint.RedPointTemplate": {
+    "fullName": "DragonCD3.RedPoint.RedPointTemplate",
+    "fileID": 11500000,
+    "guid": "a45358e5e31c34817b575d6d804d453a"
+  },
+  "DragonCD3.AnimSpineUI": {
+    "fullName": "DragonCD3.AnimSpineUI",
+    "fileID": 11500000,
+    "guid": "c0369fc5406e49348bbe235911058275"
+  },
+  "CustomScrollRect": {
+    "fullName": "CustomScrollRect",
+    "fileID": 11500000,
+    "guid": "ebf62f8775f424974afb895492827a56"
+  },
+  "DragonCD3.DontDestroy": {
+    "fullName": "DragonCD3.DontDestroy",
+    "fileID": 11500000,
+    "guid": "fe6b26e23e850480d8e7ba303eab8477"
+  },
+  "EmptyForRaycast": {
+    "fullName": "EmptyForRaycast",
+    "fileID": 11500000,
+    "guid": "c212e2e543ed74770922ab0db48ac675"
+  },
+  "DragonCD3.SpriteMeshConverter": {
+    "fullName": "DragonCD3.SpriteMeshConverter",
+    "fileID": 11500000,
+    "guid": "ad482cb551d7b304884269602bbdb183"
+  },
+  "DragonCD3.SpriteMeshRenderer": {
+    "fullName": "DragonCD3.SpriteMeshRenderer",
+    "fileID": 11500000,
+    "guid": "89d3319e78b740d45938de7e288e548a"
+  },
+  "DragonCD3.Audio.Standard.IgnoreButtonClickSound": {
+    "fullName": "DragonCD3.Audio.Standard.IgnoreButtonClickSound",
+    "fileID": 11500000,
+    "guid": "ce611dda7f84496e8b03cd1fe39acc35"
+  },
+  "DragonCD3.Coroutines.CoroutineBehaviour": {
+    "fullName": "DragonCD3.Coroutines.CoroutineBehaviour",
+    "fileID": 11500000,
+    "guid": "8125dc0ce669944f49625b7b80040f06"
+  },
+  "DragonCD3.Localization.LocalizationText": {
+    "fullName": "DragonCD3.Localization.LocalizationText",
+    "fileID": 11500000,
+    "guid": "27500083c733441d29cfe7bcb7a78ef8"
+  },
+  "GameProtection.MemorySec.HackDetector.HackBase": {
+    "fullName": "GameProtection.MemorySec.HackDetector.HackBase",
+    "fileID": 11500000,
+    "guid": "81294bf0e59f3d444a40201ceef8c723"
+  },
+  "AOTGenericReferences": {
+    "fullName": "AOTGenericReferences",
+    "fileID": 11500000,
+    "guid": "dcca5647fe95a4949b719a3b70912d72"
+  },
+  "DragonCD3.Launcher.Launcher": {
+    "fullName": "DragonCD3.Launcher.Launcher",
+    "fileID": 11500000,
+    "guid": "7350c5c84f2624ff1b678af9ce023d74"
+  },
+  "DragonCD3.Launcher.LoadingPanel": {
+    "fullName": "DragonCD3.Launcher.LoadingPanel",
+    "fileID": 11500000,
+    "guid": "15ab184e4f65a403b8ac1f74912a53a6"
+  },
+  "DragonCD3.Launcher.LauncherNoticePanel": {
+    "fullName": "DragonCD3.Launcher.LauncherNoticePanel",
+    "fileID": 11500000,
+    "guid": "3e07c6271979f480783cddfada95510f"
+  },
+  "DragonCD3.Launcher.PrivacyPanel": {
+    "fullName": "DragonCD3.Launcher.PrivacyPanel",
+    "fileID": 11500000,
+    "guid": "a1a956899631c4d258132d90067da76f"
+  },
+  "TextMeshProLinkOpener": {
+    "fullName": "TextMeshProLinkOpener",
+    "fileID": 11500000,
+    "guid": "8d6cbafaf86f04c3b9eda066c194fb8f"
+  },
+  "ColorBean1.SceneRoot": {
+    "fullName": "ColorBean1.SceneRoot",
+    "fileID": 11500000,
+    "guid": "d23cf3294ee614446a87cb9c66d643f5"
+  },
+  "DragonCD3.Assets.AssetsSetting": {
+    "fullName": "DragonCD3.Assets.AssetsSetting",
+    "fileID": 11500000,
+    "guid": "cb253100e6af94f92ac4d105c35d0142"
+  },
+  "BuildinFileManifest": {
+    "fullName": "BuildinFileManifest",
+    "fileID": 11500000,
+    "guid": "9a394a3e676032a43bd02042b2e6ffe3"
+  },
+  "DG.Tweening.DOTweenAnimation": {
+    "fullName": "DG.Tweening.DOTweenAnimation",
+    "fileID": 11500000,
+    "guid": "4d0390bd8b8ffd640b34fe25065ff1df"
+  },
+  "DG.DOTweenEditor.DOTweenAnimationInspector": {
+    "fullName": "DG.DOTweenEditor.DOTweenAnimationInspector",
+    "fileID": 11500000,
+    "guid": "e0203fd81362bab4d842d87ad09ee76e"
+  },
+  "ExportDllFixGuid.ExportDllFixGuidConfig": {
+    "fullName": "ExportDllFixGuid.ExportDllFixGuidConfig",
+    "fileID": 11500000,
+    "guid": "f995950e6932b4ae08e8021bc587f27f"
+  },
+  "Spine.Unity.Editor.AnimationReferenceAssetEditor": {
+    "fullName": "Spine.Unity.Editor.AnimationReferenceAssetEditor",
+    "fileID": 11500000,
+    "guid": "9511532e80feed24881a5863f5485446"
+  },
+  "Spine.Unity.Editor.SkeletonDataAssetInspector": {
+    "fullName": "Spine.Unity.Editor.SkeletonDataAssetInspector",
+    "fileID": 11500000,
+    "guid": "01cbef8f24d105f4bafa9668d669e040"
+  },
+  "Spine.Unity.Editor.SpineAtlasAssetInspector": {
+    "fullName": "Spine.Unity.Editor.SpineAtlasAssetInspector",
+    "fileID": 11500000,
+    "guid": "ca9b3ce36d70a05408e3bdd5e92c7f64"
+  },
+  "Spine.Unity.Editor.SpineSpriteAtlasAssetInspector": {
+    "fullName": "Spine.Unity.Editor.SpineSpriteAtlasAssetInspector",
+    "fileID": 11500000,
+    "guid": "f063dc5ff6881db4a9ee2e059812cba2"
+  },
+  "Spine.Unity.Editor.BoneFollowerGraphicInspector": {
+    "fullName": "Spine.Unity.Editor.BoneFollowerGraphicInspector",
+    "fileID": 11500000,
+    "guid": "da44a8561fd243c43a1f77bda36de0eb"
+  },
+  "Spine.Unity.Editor.BoneFollowerInspector": {
+    "fullName": "Spine.Unity.Editor.BoneFollowerInspector",
+    "fileID": 11500000,
+    "guid": "c71ca35fd6241cb49a0b0756a664fcf7"
+  },
+  "Spine.Unity.Editor.BoundingBoxFollowerGraphicInspector": {
+    "fullName": "Spine.Unity.Editor.BoundingBoxFollowerGraphicInspector",
+    "fileID": 11500000,
+    "guid": "7c4f5b276299bc048ad00f3cd2d1ea09"
+  },
+  "Spine.Unity.Editor.BoundingBoxFollowerInspector": {
+    "fullName": "Spine.Unity.Editor.BoundingBoxFollowerInspector",
+    "fileID": 11500000,
+    "guid": "670a3cefa3853bd48b5da53a424fd542"
+  },
+  "Spine.Unity.Editor.PointFollowerInspector": {
+    "fullName": "Spine.Unity.Editor.PointFollowerInspector",
+    "fileID": 11500000,
+    "guid": "7c7e838a8ec295a4e9c53602f690f42f"
+  },
+  "Spine.Unity.Editor.SkeletonAnimationInspector": {
+    "fullName": "Spine.Unity.Editor.SkeletonAnimationInspector",
+    "fileID": 11500000,
+    "guid": "39fbfef61034ca045b5aa80088e1e8a4"
+  },
+  "Spine.Unity.Editor.SkeletonGraphicCustomMaterialsInspector": {
+    "fullName": "Spine.Unity.Editor.SkeletonGraphicCustomMaterialsInspector",
+    "fileID": 11500000,
+    "guid": "349bf125947e3aa4bb78690fec69ea17"
+  },
+  "Spine.Unity.Editor.SkeletonGraphicInspector": {
+    "fullName": "Spine.Unity.Editor.SkeletonGraphicInspector",
+    "fileID": 11500000,
+    "guid": "0d81cc76b52fcdf499b2db252a317726"
+  },
+  "Spine.Unity.Editor.SkeletonMecanimInspector": {
+    "fullName": "Spine.Unity.Editor.SkeletonMecanimInspector",
+    "fileID": 11500000,
+    "guid": "6a9ca5213a3a4614c9a9f2e60909bc33"
+  },
+  "Spine.Unity.Editor.SkeletonMecanimRootMotionInspector": {
+    "fullName": "Spine.Unity.Editor.SkeletonMecanimRootMotionInspector",
+    "fileID": 11500000,
+    "guid": "4613924c50d66cf458f0db803776dd2f"
+  },
+  "Spine.Unity.Editor.SkeletonRendererCustomMaterialsInspector": {
+    "fullName": "Spine.Unity.Editor.SkeletonRendererCustomMaterialsInspector",
+    "fileID": 11500000,
+    "guid": "e70f7f2a241d6d34aafd6a4a52a368d0"
+  },
+  "Spine.Unity.Editor.SkeletonRendererInspector": {
+    "fullName": "Spine.Unity.Editor.SkeletonRendererInspector",
+    "fileID": 11500000,
+    "guid": "d0fc5db9788bce4418ad3252d43faa8a"
+  },
+  "Spine.Unity.Editor.SkeletonRootMotionBaseInspector": {
+    "fullName": "Spine.Unity.Editor.SkeletonRootMotionBaseInspector",
+    "fileID": 11500000,
+    "guid": "f2cba83baf6afdf44a996e40017c6325"
+  },
+  "Spine.Unity.Editor.SkeletonRootMotionInspector": {
+    "fullName": "Spine.Unity.Editor.SkeletonRootMotionInspector",
+    "fileID": 11500000,
+    "guid": "e4836100aed984c4a9af11d39c63cb6b"
+  },
+  "Spine.Unity.Editor.SkeletonGraphicSubmeshInspector": {
+    "fullName": "Spine.Unity.Editor.SkeletonGraphicSubmeshInspector",
+    "fileID": 11500000,
+    "guid": "1bc35530b2335ef4da1dafa6214b6ccd"
+  },
+  "Spine.Unity.Editor.SkeletonUtilityBoneInspector": {
+    "fullName": "Spine.Unity.Editor.SkeletonUtilityBoneInspector",
+    "fileID": 11500000,
+    "guid": "b3ae20b4bcc31f645afd6f5b64f82473"
+  },
+  "Spine.Unity.Editor.SkeletonUtilityInspector": {
+    "fullName": "Spine.Unity.Editor.SkeletonUtilityInspector",
+    "fileID": 11500000,
+    "guid": "a5b90df955eb8c2429ac67c8b2de6c5c"
+  },
+  "Spine.Unity.Editor.SkeletonBakingWindow": {
+    "fullName": "Spine.Unity.Editor.SkeletonBakingWindow",
+    "fileID": 11500000,
+    "guid": "868b0caae5b3e65408ece1ab400c4a99"
+  },
+  "Spine.Unity.Editor.SkeletonDebugWindow": {
+    "fullName": "Spine.Unity.Editor.SkeletonDebugWindow",
+    "fileID": 11500000,
+    "guid": "7093e73ff3cf6c543ac5865980070b49"
+  },
+  "Spine.Unity.Editor.SpinePreferences": {
+    "fullName": "Spine.Unity.Editor.SpinePreferences",
+    "fileID": 11500000,
+    "guid": "b29e98153ec2fbd44b8f7da1b41194e8"
+  },
+  "Spine.Unity.Editor.SpriteAtlasImportWindow": {
+    "fullName": "Spine.Unity.Editor.SpriteAtlasImportWindow",
+    "fileID": 11500000,
+    "guid": "a5b99b091defeef439a0cb8c99fd8a51"
+  },
+  "Spine.Unity.Examples.SkeletonRenderPartInspector": {
+    "fullName": "Spine.Unity.Examples.SkeletonRenderPartInspector",
+    "fileID": 11500000,
+    "guid": "30e43037bf4433645ad70266f34c1c8b"
+  },
+  "Spine.Unity.Examples.SkeletonRenderSeparatorInspector": {
+    "fullName": "Spine.Unity.Examples.SkeletonRenderSeparatorInspector",
+    "fileID": 11500000,
+    "guid": "d2a5062cfe5dd4344831cda4723128af"
+  },
+  "Spine.Unity.AnimationReferenceAsset": {
+    "fullName": "Spine.Unity.AnimationReferenceAsset",
+    "fileID": 11500000,
+    "guid": "6e3e95a05e4c9774397eeeb7bdee8ccb"
+  },
+  "Spine.Unity.AtlasAssetBase": {
+    "fullName": "Spine.Unity.AtlasAssetBase",
+    "fileID": 11500000,
+    "guid": "787a36933c1c6e14db2104c01ed92dcb"
+  },
+  "Spine.Unity.EventDataReferenceAsset": {
+    "fullName": "Spine.Unity.EventDataReferenceAsset",
+    "fileID": 11500000,
+    "guid": "8e60be42c1473144db0fd3337c25b500"
+  },
+  "Spine.Unity.OnDemandTextureLoader": {
+    "fullName": "Spine.Unity.OnDemandTextureLoader",
+    "fileID": 11500000,
+    "guid": "57d54a357da79654aad505112bb63b9e"
+  },
+  "Spine.Unity.SkeletonDataAsset": {
+    "fullName": "Spine.Unity.SkeletonDataAsset",
+    "fileID": 11500000,
+    "guid": "f1b3b4b945939a54ea0b23d3396115fb"
+  },
+  "Spine.Unity.SkeletonDataModifierAsset": {
+    "fullName": "Spine.Unity.SkeletonDataModifierAsset",
+    "fileID": 11500000,
+    "guid": "79a44aba1f342f440965874280b4c318"
+  },
+  "Spine.Unity.SpineAtlasAsset": {
+    "fullName": "Spine.Unity.SpineAtlasAsset",
+    "fileID": 11500000,
+    "guid": "a6b194f808b1af6499c93410e504af42"
+  },
+  "Spine.Unity.SpineSpriteAtlasAsset": {
+    "fullName": "Spine.Unity.SpineSpriteAtlasAsset",
+    "fileID": 11500000,
+    "guid": "ce59897dd7e6cbc4690a05ebaf975dff"
+  },
+  "Spine.Unity.EditorSkeletonPlayer": {
+    "fullName": "Spine.Unity.EditorSkeletonPlayer",
+    "fileID": 11500000,
+    "guid": "8b473abb659158442b906826a22f18bc"
+  },
+  "Spine.Unity.SkeletonAnimation": {
+    "fullName": "Spine.Unity.SkeletonAnimation",
+    "fileID": 11500000,
+    "guid": "d247ba06193faa74d9335f5481b2b56c"
+  },
+  "Spine.Unity.SkeletonGraphic": {
+    "fullName": "Spine.Unity.SkeletonGraphic",
+    "fileID": 11500000,
+    "guid": "d85b887af7e6c3f45a2e2d2920d641bc"
+  },
+  "Spine.Unity.SkeletonMecanim": {
+    "fullName": "Spine.Unity.SkeletonMecanim",
+    "fileID": 11500000,
+    "guid": "f9db98c60740638449864eb028fbe7ad"
+  },
+  "Spine.Unity.SkeletonRenderer": {
+    "fullName": "Spine.Unity.SkeletonRenderer",
+    "fileID": 11500000,
+    "guid": "e075b9a3e08e2f74fbd651c858ab16ed"
+  },
+  "Spine.Unity.BoneFollower": {
+    "fullName": "Spine.Unity.BoneFollower",
+    "fileID": 11500000,
+    "guid": "a1fd8daaed7b64148a34acb96ba14ce1"
+  },
+  "Spine.Unity.BoneFollowerGraphic": {
+    "fullName": "Spine.Unity.BoneFollowerGraphic",
+    "fileID": 11500000,
+    "guid": "b42a195b47491d34b9bcbc40898bcb29"
+  },
+  "Spine.Unity.BoundingBoxFollower": {
+    "fullName": "Spine.Unity.BoundingBoxFollower",
+    "fileID": 11500000,
+    "guid": "0317ee9ba6e1b1e49a030268e026d372"
+  },
+  "Spine.Unity.BoundingBoxFollowerGraphic": {
+    "fullName": "Spine.Unity.BoundingBoxFollowerGraphic",
+    "fileID": 11500000,
+    "guid": "1c0bf7b497af9f74280040d96cdf88da"
+  },
+  "Spine.Unity.PointFollower": {
+    "fullName": "Spine.Unity.PointFollower",
+    "fileID": 11500000,
+    "guid": "daf461e4341180341a648c07e1899528"
+  },
+  "Spine.Unity.SkeletonSubmeshGraphic": {
+    "fullName": "Spine.Unity.SkeletonSubmeshGraphic",
+    "fileID": 11500000,
+    "guid": "deeb12332c062954093c24a3fab10b83"
+  },
+  "Spine.Unity.SkeletonMecanimRootMotion": {
+    "fullName": "Spine.Unity.SkeletonMecanimRootMotion",
+    "fileID": 11500000,
+    "guid": "95813afe390494344a6ce2cbc8bfb7d1"
+  },
+  "Spine.Unity.SkeletonRootMotion": {
+    "fullName": "Spine.Unity.SkeletonRootMotion",
+    "fileID": 11500000,
+    "guid": "f21c9538588898a45a3da22bf4779ab3"
+  },
+  "Spine.Unity.SkeletonRootMotionBase": {
+    "fullName": "Spine.Unity.SkeletonRootMotionBase",
+    "fileID": 11500000,
+    "guid": "fc23a4f220b20024ab0592719f92587d"
+  },
+  "Spine.Unity.SkeletonGraphicCustomMaterials": {
+    "fullName": "Spine.Unity.SkeletonGraphicCustomMaterials",
+    "fileID": 11500000,
+    "guid": "6c8717e10b272bf42b05d363ac2679a6"
+  },
+  "Spine.Unity.SkeletonRendererCustomMaterials": {
+    "fullName": "Spine.Unity.SkeletonRendererCustomMaterials",
+    "fileID": 11500000,
+    "guid": "26947ae098a8447408d80c0c86e35b48"
+  },
+  "Spine.Unity.SkeletonPartsRenderer": {
+    "fullName": "Spine.Unity.SkeletonPartsRenderer",
+    "fileID": 11500000,
+    "guid": "1c0b968d1e7333b499e347acb644f1c1"
+  },
+  "Spine.Unity.SkeletonRenderSeparator": {
+    "fullName": "Spine.Unity.SkeletonRenderSeparator",
+    "fileID": 11500000,
+    "guid": "5c70a5b35f6ff2541aed8e8346b7e4d5"
+  },
+  "Spine.Unity.ActivateBasedOnFlipDirection": {
+    "fullName": "Spine.Unity.ActivateBasedOnFlipDirection",
+    "fileID": 11500000,
+    "guid": "70ae96e4f2feb654681a2f16e4effeec"
+  },
+  "Spine.Unity.FollowLocationRigidbody": {
+    "fullName": "Spine.Unity.FollowLocationRigidbody",
+    "fileID": 11500000,
+    "guid": "9fc20d5e917562341a5007777a9d0db2"
+  },
+  "Spine.Unity.FollowLocationRigidbody2D": {
+    "fullName": "Spine.Unity.FollowLocationRigidbody2D",
+    "fileID": 11500000,
+    "guid": "02aae87c39b869548a9051fbdb1975e6"
+  },
+  "Spine.Unity.FollowSkeletonUtilityRootRotation": {
+    "fullName": "Spine.Unity.FollowSkeletonUtilityRootRotation",
+    "fileID": 11500000,
+    "guid": "456a736ebb92ebf4b959fa9c4b704427"
+  },
+  "Spine.Unity.SkeletonUtility": {
+    "fullName": "Spine.Unity.SkeletonUtility",
+    "fileID": 11500000,
+    "guid": "7f726fb798ad621458c431cb9966d91d"
+  },
+  "Spine.Unity.SkeletonUtilityBone": {
+    "fullName": "Spine.Unity.SkeletonUtilityBone",
+    "fileID": 11500000,
+    "guid": "b238dfcde8209044b97d23f62bcaadf6"
+  },
+  "Spine.Unity.SkeletonUtilityConstraint": {
+    "fullName": "Spine.Unity.SkeletonUtilityConstraint",
+    "fileID": 11500000,
+    "guid": "522dbfcc6c916df4396f14f35048d185"
+  },
+  "Spine.Unity.BlendModeMaterialsAsset": {
+    "fullName": "Spine.Unity.BlendModeMaterialsAsset",
+    "fileID": 11500000,
+    "guid": "12b0b98acbcda44468a7ae4e35000abe"
+  },
+  "SRDebugger.Settings": {
+    "fullName": "SRDebugger.Settings",
+    "fileID": 11500000,
+    "guid": "16d00b7005a47ef47802a8421dc6baf6"
+  },
+  "SRDebugger.SRDebuggerInit": {
+    "fullName": "SRDebugger.SRDebuggerInit",
+    "fileID": 11500000,
+    "guid": "66edd3610b01cce48aed05383fd196e5"
+  },
+  "SRDebugger.Editor.ApiSignupTermsWindow": {
+    "fullName": "SRDebugger.Editor.ApiSignupTermsWindow",
+    "fileID": 11500000,
+    "guid": "58b4c2d8acab3b747a2a90abd77b1132"
+  },
+  "SRDebugger.Editor.SettingsEditor": {
+    "fullName": "SRDebugger.Editor.SettingsEditor",
+    "fileID": 11500000,
+    "guid": "6304f38f53dfcc44f9265410f0f14050"
+  },
+  "SRDebugger.Editor.SRDebuggerSettingsWindow": {
+    "fullName": "SRDebugger.Editor.SRDebuggerSettingsWindow",
+    "fileID": 11500000,
+    "guid": "3a6cf957f3eda7b429dd0eae2cfbb40c"
+  },
+  "SRDebugger.Editor.SRIntegrityCheckWindow": {
+    "fullName": "SRDebugger.Editor.SRIntegrityCheckWindow",
+    "fileID": 11500000,
+    "guid": "8d3667acfb91436880aa7f35bcc5fe43"
+  },
+  "SRDebugger.Editor.SROptionsWindow": {
+    "fullName": "SRDebugger.Editor.SROptionsWindow",
+    "fileID": 11500000,
+    "guid": "c10ec5c3e9f1e404ba655cbc07340b94"
+  },
+  "SRDebugger.Editor.WelcomeWindow": {
+    "fullName": "SRDebugger.Editor.WelcomeWindow",
+    "fileID": 11500000,
+    "guid": "1e35f7047e81c2247ae9a5bfd682e156"
+  },
+  "SRDebugger.Internal.BugReportApi": {
+    "fullName": "SRDebugger.Internal.BugReportApi",
+    "fileID": 11500000,
+    "guid": "dfdfb4c8f27446b4d8aa88d3980f4c50"
+  },
+  "SRDebugger.Scripts.Internal.SRScriptRecompileHelper": {
+    "fullName": "SRDebugger.Scripts.Internal.SRScriptRecompileHelper",
+    "fileID": 11500000,
+    "guid": "5cb2b7903b1672544b02d628ac0c1dfd"
+  },
+  "SRDebugger.Profiler.ProfilerLateUpdateListener": {
+    "fullName": "SRDebugger.Profiler.ProfilerLateUpdateListener",
+    "fileID": 11500000,
+    "guid": "21048b348f7dc284ab97209ec32253c4"
+  },
+  "SRDebugger.Profiler.ProfilerServiceImpl": {
+    "fullName": "SRDebugger.Profiler.ProfilerServiceImpl",
+    "fileID": 11500000,
+    "guid": "ff0319556f3fbc341b877ff4b1ff94ba"
+  },
+  "SRDebugger.Profiler.SRPProfilerService": {
+    "fullName": "SRDebugger.Profiler.SRPProfilerService",
+    "fileID": 11500000,
+    "guid": "3f6b60357b55b3a438c0f79ba2be864c"
+  },
+  "SRDebugger.Scripts.DebuggerTabController": {
+    "fullName": "SRDebugger.Scripts.DebuggerTabController",
+    "fileID": 11500000,
+    "guid": "295aaaf6e216af84e99f15dff7b6fc32"
+  },
+  "SRDebugger.UI.DebugPanelRoot": {
+    "fullName": "SRDebugger.UI.DebugPanelRoot",
+    "fileID": 11500000,
+    "guid": "64a45d1be7c826148a745e7d38b02161"
+  },
+  "SRDebugger.UI.MobileMenuController": {
+    "fullName": "SRDebugger.UI.MobileMenuController",
+    "fileID": 11500000,
+    "guid": "3cc3afaacd56e9b4f9f2b6201ec85267"
+  },
+  "SRDebugger.Services.Implementation.BugReportPopoverService": {
+    "fullName": "SRDebugger.Services.Implementation.BugReportPopoverService",
+    "fileID": 11500000,
+    "guid": "80565ccf143b6fc40aafeb9c7d23aeef"
+  },
+  "SRDebugger.Services.Implementation.DebugPanelServiceImpl": {
+    "fullName": "SRDebugger.Services.Implementation.DebugPanelServiceImpl",
+    "fileID": 11500000,
+    "guid": "3395027a4a5c704439ebf91760920165"
+  },
+  "SRDebugger.Services.Implementation.DebugTriggerImpl": {
+    "fullName": "SRDebugger.Services.Implementation.DebugTriggerImpl",
+    "fileID": 11500000,
+    "guid": "5cbf8bc5e9eb92448bc12690ebd84a02"
+  },
+  "SRDebugger.Services.Implementation.KeyboardShortcutListenerService": {
+    "fullName": "SRDebugger.Services.Implementation.KeyboardShortcutListenerService",
+    "fileID": 11500000,
+    "guid": "cad04a63089e6e844969aa944ba22fdd"
+  },
+  "SRDebugger.Services.Implementation.PinEntryServiceImpl": {
+    "fullName": "SRDebugger.Services.Implementation.PinEntryServiceImpl",
+    "fileID": 11500000,
+    "guid": "43bd0242747ae6042a436f1ff85403d4"
+  },
+  "SRDebugger.Services.Implementation.PinnedUIServiceImpl": {
+    "fullName": "SRDebugger.Services.Implementation.PinnedUIServiceImpl",
+    "fileID": 11500000,
+    "guid": "ba911226d6eee2441ba45b76f81a1d62"
+  },
+  "SRDebugger.UI.Controls.ConsoleEntryView": {
+    "fullName": "SRDebugger.UI.Controls.ConsoleEntryView",
+    "fileID": 11500000,
+    "guid": "c214ec24a4baf1a4f828768a9795f241"
+  },
+  "SRDebugger.UI.Controls.ConsoleLogControl": {
+    "fullName": "SRDebugger.UI.Controls.ConsoleLogControl",
+    "fileID": 11500000,
+    "guid": "413376b74a5948a4db9e0a5c9c002724"
+  },
+  "SRDebugger.UI.Controls.InfoBlock": {
+    "fullName": "SRDebugger.UI.Controls.InfoBlock",
+    "fileID": 11500000,
+    "guid": "3214a2a17debe0c489148429ec9a37b2"
+  },
+  "SRDebugger.UI.Controls.MultiTapButton": {
+    "fullName": "SRDebugger.UI.Controls.MultiTapButton",
+    "fileID": 11500000,
+    "guid": "abc57d317f579f2459ba7317f386ecf3"
+  },
+  "SRDebugger.UI.Controls.PinEntryControl": {
+    "fullName": "SRDebugger.UI.Controls.PinEntryControl",
+    "fileID": 11500000,
+    "guid": "ac5725a9566ed324c98b66c6cb03c5cf"
+  },
+  "SRDebugger.UI.Controls.ProfilerEnableControl": {
+    "fullName": "SRDebugger.UI.Controls.ProfilerEnableControl",
+    "fileID": 11500000,
+    "guid": "04ad714fc337b334687c4aedb49873e9"
+  },
+  "SRDebugger.UI.Controls.ProfilerGraphAxisLabel": {
+    "fullName": "SRDebugger.UI.Controls.ProfilerGraphAxisLabel",
+    "fileID": 11500000,
+    "guid": "4694d7052fd506340ba6cad9f8a10f1b"
+  },
+  "SRDebugger.UI.Controls.ProfilerGraphControl": {
+    "fullName": "SRDebugger.UI.Controls.ProfilerGraphControl",
+    "fileID": 11500000,
+    "guid": "e5812a284a856b743b4f54c6a4637061"
+  },
+  "SRDebugger.UI.Controls.SRTabButton": {
+    "fullName": "SRDebugger.UI.Controls.SRTabButton",
+    "fileID": 11500000,
+    "guid": "d2e81b40d04e8e440bb9659057db98c8"
+  },
+  "SRDebugger.UI.Other.BugReportPopoverRoot": {
+    "fullName": "SRDebugger.UI.Other.BugReportPopoverRoot",
+    "fileID": 11500000,
+    "guid": "5c9a194ca4d3911419f82b2f06d5ef2e"
+  },
+  "SRDebugger.UI.Other.BugReportSheetController": {
+    "fullName": "SRDebugger.UI.Other.BugReportSheetController",
+    "fileID": 11500000,
+    "guid": "63d76b94b1c670b4cbafd57dd8dcd2ff"
+  },
+  "SRDebugger.UI.Other.CategoryGroup": {
+    "fullName": "SRDebugger.UI.Other.CategoryGroup",
+    "fileID": 11500000,
+    "guid": "176c1a8b99c762143a65fa14f47b5d93"
+  },
+  "SRDebugger.UI.Other.ConfigureCanvasFromSettings": {
+    "fullName": "SRDebugger.UI.Other.ConfigureCanvasFromSettings",
+    "fileID": 11500000,
+    "guid": "f0ad3d8afa9fd64429a249b5bbb19557"
+  },
+  "SRDebugger.UI.Other.ConsoleTabQuickViewControl": {
+    "fullName": "SRDebugger.UI.Other.ConsoleTabQuickViewControl",
+    "fileID": 11500000,
+    "guid": "b9e7555976318b846887116c61e2ecf6"
+  },
+  "SRDebugger.UI.Other.DebugPanelBackgroundBehaviour": {
+    "fullName": "SRDebugger.UI.Other.DebugPanelBackgroundBehaviour",
+    "fileID": 11500000,
+    "guid": "a819a08c122d6474a848377ee7ba3192"
+  },
+  "SRDebugger.UI.Other.DockConsoleController": {
+    "fullName": "SRDebugger.UI.Other.DockConsoleController",
+    "fileID": 11500000,
+    "guid": "c8181ba76f89dd64a96c1e8c2beccb26"
+  },
+  "SRDebugger.UI.Other.ErrorNotifier": {
+    "fullName": "SRDebugger.UI.Other.ErrorNotifier",
+    "fileID": 11500000,
+    "guid": "dc845b8723c64841aa76e259d4a0b6c4"
+  },
+  "SRDebugger.UI.Other.FloatOverElement": {
+    "fullName": "SRDebugger.UI.Other.FloatOverElement",
+    "fileID": 11500000,
+    "guid": "cb581f748e6cd6d43805081fbb5242f8"
+  },
+  "SRDebugger.UI.Other.HandleManager": {
+    "fullName": "SRDebugger.UI.Other.HandleManager",
+    "fileID": 11500000,
+    "guid": "4292e93ad30fda64b96c60d4d68b3c0d"
+  },
+  "SRDebugger.UI.Other.LoadingSpinnerBehaviour": {
+    "fullName": "SRDebugger.UI.Other.LoadingSpinnerBehaviour",
+    "fileID": 11500000,
+    "guid": "44d058d954e809c4fa87cfab328237d7"
+  },
+  "SRDebugger.UI.Other.PinnedUIRoot": {
+    "fullName": "SRDebugger.UI.Other.PinnedUIRoot",
+    "fileID": 11500000,
+    "guid": "7d5f8248a0899ee48adc84c3fb98627a"
+  },
+  "SRDebugger.UI.Other.SafeAreaSizer": {
+    "fullName": "SRDebugger.UI.Other.SafeAreaSizer",
+    "fileID": 11500000,
+    "guid": "00b72250a6a48194fbecb6ed8b983720"
+  },
+  "SRDebugger.UI.Other.ScrollSettingsBehaviour": {
+    "fullName": "SRDebugger.UI.Other.ScrollSettingsBehaviour",
+    "fileID": 11500000,
+    "guid": "6f0ff44b792ef2042856036000e22450"
+  },
+  "SRDebugger.UI.Other.SetLayerFromSettings": {
+    "fullName": "SRDebugger.UI.Other.SetLayerFromSettings",
+    "fileID": 11500000,
+    "guid": "40436e7c301de034f916ee1e7ddabeeb"
+  },
+  "SRDebugger.UI.Other.SRTab": {
+    "fullName": "SRDebugger.UI.Other.SRTab",
+    "fileID": 11500000,
+    "guid": "94b1f24ed4379dd4fab14add56e520a5"
+  },
+  "SRDebugger.UI.Other.SRTabController": {
+    "fullName": "SRDebugger.UI.Other.SRTabController",
+    "fileID": 11500000,
+    "guid": "035be48566f8a3a4285521c6480d83ce"
+  },
+  "SRDebugger.UI.Other.TriggerRoot": {
+    "fullName": "SRDebugger.UI.Other.TriggerRoot",
+    "fileID": 11500000,
+    "guid": "e511950015658d545aa9d10a45550b11"
+  },
+  "SRDebugger.UI.Other.VersionTextBehaviour": {
+    "fullName": "SRDebugger.UI.Other.VersionTextBehaviour",
+    "fileID": 11500000,
+    "guid": "bc11b0e922d02a54fa6197856eee3976"
+  },
+  "SRDebugger.UI.Tabs.BugReportTabController": {
+    "fullName": "SRDebugger.UI.Tabs.BugReportTabController",
+    "fileID": 11500000,
+    "guid": "6739582ce86516749a398ff57c5ca282"
+  },
+  "SRDebugger.UI.Tabs.ConsoleTabController": {
+    "fullName": "SRDebugger.UI.Tabs.ConsoleTabController",
+    "fileID": 11500000,
+    "guid": "7b54f4d46edbb634985db4a2fa4ada2f"
+  },
+  "SRDebugger.UI.Tabs.InfoTabController": {
+    "fullName": "SRDebugger.UI.Tabs.InfoTabController",
+    "fileID": 11500000,
+    "guid": "5b6cf74d4a6343648bbe857301cf1bc8"
+  },
+  "SRDebugger.UI.Tabs.OptionsTabController": {
+    "fullName": "SRDebugger.UI.Tabs.OptionsTabController",
+    "fileID": 11500000,
+    "guid": "977db337f5942e64aa7b62fc1ca01e28"
+  },
+  "SRDebugger.UI.Tabs.ProfilerTabController": {
+    "fullName": "SRDebugger.UI.Tabs.ProfilerTabController",
+    "fileID": 11500000,
+    "guid": "f26b5a0018be8444fb0a18037b471f65"
+  },
+  "SRDebugger.UI.Controls.Data.ActionControl": {
+    "fullName": "SRDebugger.UI.Controls.Data.ActionControl",
+    "fileID": 11500000,
+    "guid": "6c637c8d0d16d024fa920dda64fb38db"
+  },
+  "SRDebugger.UI.Controls.Data.BoolControl": {
+    "fullName": "SRDebugger.UI.Controls.Data.BoolControl",
+    "fileID": 11500000,
+    "guid": "645dcae76b625be40b595e4bbc27abb6"
+  },
+  "SRDebugger.UI.Controls.DataBoundControl": {
+    "fullName": "SRDebugger.UI.Controls.DataBoundControl",
+    "fileID": 11500000,
+    "guid": "5f319c80d34ef2e4590641a136c82f1e"
+  },
+  "SRDebugger.UI.Controls.Data.EnumControl": {
+    "fullName": "SRDebugger.UI.Controls.Data.EnumControl",
+    "fileID": 11500000,
+    "guid": "3b7f14311f0b3f442b273192dc8ffe4d"
+  },
+  "SRDebugger.UI.Controls.Data.NumberControl": {
+    "fullName": "SRDebugger.UI.Controls.Data.NumberControl",
+    "fileID": 11500000,
+    "guid": "4a6d9f7214a7c5e4b868bfc520d92799"
+  },
+  "SRDebugger.UI.Controls.OptionsControlBase": {
+    "fullName": "SRDebugger.UI.Controls.OptionsControlBase",
+    "fileID": 11500000,
+    "guid": "ff04c6750fdb3b744ac19818a2425666"
+  },
+  "SRDebugger.UI.Controls.Data.ReadOnlyControl": {
+    "fullName": "SRDebugger.UI.Controls.Data.ReadOnlyControl",
+    "fileID": 11500000,
+    "guid": "41b5dbc85a74ae84dbb6c6685e1151fc"
+  },
+  "SRDebugger.UI.Controls.Data.StringControl": {
+    "fullName": "SRDebugger.UI.Controls.Data.StringControl",
+    "fileID": 11500000,
+    "guid": "019f81638c7cf1f438569f1ca9def175"
+  },
+  "SRDebugger.UI.ProfilerFPSLabel": {
+    "fullName": "SRDebugger.UI.ProfilerFPSLabel",
+    "fileID": 11500000,
+    "guid": "85621644eaef06f44835068498590190"
+  },
+  "SRDebugger.UI.Controls.ProfilerMemoryBlock": {
+    "fullName": "SRDebugger.UI.Controls.ProfilerMemoryBlock",
+    "fileID": 11500000,
+    "guid": "445cb6d0a347a0542a38dd652e9ba01b"
+  },
+  "SRDebugger.UI.Controls.ProfilerMonoBlock": {
+    "fullName": "SRDebugger.UI.Controls.ProfilerMonoBlock",
+    "fileID": 11500000,
+    "guid": "9fff10238b625f545b2d88c80d4cf9d4"
+  },
+  "SRF.SRMonoBehaviour": {
+    "fullName": "SRF.SRMonoBehaviour",
+    "fileID": 11500000,
+    "guid": "a97a8611d5d683b4aa89a5054bc3774e"
+  },
+  "SRF.SRMonoBehaviourEx": {
+    "fullName": "SRF.SRMonoBehaviourEx",
+    "fileID": 11500000,
+    "guid": "82088ea802108344da1e919daa6881fd"
+  },
+  "SRF.Service.SRServiceManager": {
+    "fullName": "SRF.Service.SRServiceManager",
+    "fileID": 11500000,
+    "guid": "83920a42d6e0f814bacbc701ae8636a5"
+  },
+  "SRF.UI.ContentFitText": {
+    "fullName": "SRF.UI.ContentFitText",
+    "fileID": 11500000,
+    "guid": "dced79525dbfa2b44b8d52b2cca6d745"
+  },
+  "SRF.UI.CopyLayoutElement": {
+    "fullName": "SRF.UI.CopyLayoutElement",
+    "fileID": 11500000,
+    "guid": "525a40520606ceb469b7494cb8ddef87"
+  },
+  "SRF.UI.CopyPreferredSize": {
+    "fullName": "SRF.UI.CopyPreferredSize",
+    "fileID": 11500000,
+    "guid": "32609112f4257a740aa4b920a8556d24"
+  },
+  "SRF.UI.CopyPreferredSizes": {
+    "fullName": "SRF.UI.CopyPreferredSizes",
+    "fileID": 11500000,
+    "guid": "d5c292f06a2fb3644aac9698b40bd348"
+  },
+  "SRF.UI.CopySizeIntoLayoutElement": {
+    "fullName": "SRF.UI.CopySizeIntoLayoutElement",
+    "fileID": 11500000,
+    "guid": "65f264d1c98f61c4f9143ddeb0e74ff5"
+  },
+  "SRF.UI.DragHandle": {
+    "fullName": "SRF.UI.DragHandle",
+    "fileID": 11500000,
+    "guid": "8faed27c04557e24e8aecd35f2b4d9d3"
+  },
+  "SRF.UI.FlashGraphic": {
+    "fullName": "SRF.UI.FlashGraphic",
+    "fileID": 11500000,
+    "guid": "95878e800ddd366418edfb56a22f9d56"
+  },
+  "SRF.UI.InheritColour": {
+    "fullName": "SRF.UI.InheritColour",
+    "fileID": 11500000,
+    "guid": "5ed84aa42fb48c9458d3942c1d059055"
+  },
+  "SRF.UI.LongPressButton": {
+    "fullName": "SRF.UI.LongPressButton",
+    "fileID": 11500000,
+    "guid": "3fc6d8b69639fdc45a849df5b853c783"
+  },
+  "SRF.UI.ResponsiveBase": {
+    "fullName": "SRF.UI.ResponsiveBase",
+    "fileID": 11500000,
+    "guid": "8a53d43b4191c4c4d9ed43860feca27e"
+  },
+  "SRF.UI.ResponsiveEnable": {
+    "fullName": "SRF.UI.ResponsiveEnable",
+    "fileID": 11500000,
+    "guid": "2415a15c0c9eea041863fc6c1a434ede"
+  },
+  "SRF.UI.ResponsiveResize": {
+    "fullName": "SRF.UI.ResponsiveResize",
+    "fileID": 11500000,
+    "guid": "395e9c70b6db8df408e038114524cc0b"
+  },
+  "SRF.UI.ScrollToBottomBehaviour": {
+    "fullName": "SRF.UI.ScrollToBottomBehaviour",
+    "fileID": 11500000,
+    "guid": "35107bb7a2a89b54bbb85ea8ff193788"
+  },
+  "SRF.UI.SRNumberButton": {
+    "fullName": "SRF.UI.SRNumberButton",
+    "fileID": 11500000,
+    "guid": "e271d820ea3d50a40bd29c81c23cb2a1"
+  },
+  "SRF.UI.SRNumberSpinner": {
+    "fullName": "SRF.UI.SRNumberSpinner",
+    "fileID": 11500000,
+    "guid": "f7e6a39da209c144797f44248b82bfb3"
+  },
+  "SRF.UI.SRRetinaScaler": {
+    "fullName": "SRF.UI.SRRetinaScaler",
+    "fileID": 11500000,
+    "guid": "58bc4004a23c662408dd40e6d01ac936"
+  },
+  "SRF.UI.SRSpinner": {
+    "fullName": "SRF.UI.SRSpinner",
+    "fileID": 11500000,
+    "guid": "0b9fa4d99839aa940b36addec78cb92f"
+  },
+  "SRF.UI.SRText": {
+    "fullName": "SRF.UI.SRText",
+    "fileID": 11500000,
+    "guid": "983b04ffc0cd0a04fb74c9b74eb789bd"
+  },
+  "SRF.UI.StyleComponent": {
+    "fullName": "SRF.UI.StyleComponent",
+    "fileID": 11500000,
+    "guid": "73ae1b6eac706814a9cd427288a3c5c9"
+  },
+  "SRF.UI.StyleRoot": {
+    "fullName": "SRF.UI.StyleRoot",
+    "fileID": 11500000,
+    "guid": "d1bf029da478aff42a6d6e0ed8e21203"
+  },
+  "SRF.UI.StyleSheet": {
+    "fullName": "SRF.UI.StyleSheet",
+    "fileID": 11500000,
+    "guid": "d631692ab5174474eaaf2b43947b0b9f"
+  },
+  "SRF.UI.Unselectable": {
+    "fullName": "SRF.UI.Unselectable",
+    "fileID": 11500000,
+    "guid": "7134149b092993149867a9ce13a5ec50"
+  },
+  "SRF.UI.Editor.CopyPreferredSizeEditor": {
+    "fullName": "SRF.UI.Editor.CopyPreferredSizeEditor",
+    "fileID": 11500000,
+    "guid": "776c60ba14d0d0242968c3258a3ba16c"
+  },
+  "SRF.UI.Editor.CopyPreferredSizesEditor": {
+    "fullName": "SRF.UI.Editor.CopyPreferredSizesEditor",
+    "fileID": 11500000,
+    "guid": "393fb435a5c8c8043a1cbc34b977e315"
+  },
+  "SRF.UI.Editor.LongPressButtonEditor": {
+    "fullName": "SRF.UI.Editor.LongPressButtonEditor",
+    "fileID": 11500000,
+    "guid": "1d57f229ac662764aa4508a0d42ddede"
+  },
+  "SRF.UI.Editor.SRNumberButtonEditor": {
+    "fullName": "SRF.UI.Editor.SRNumberButtonEditor",
+    "fileID": 11500000,
+    "guid": "0d1845f798a1b5a47af337e37e463641"
+  },
+  "SRF.UI.Editor.StyleComponentEditor": {
+    "fullName": "SRF.UI.Editor.StyleComponentEditor",
+    "fileID": 11500000,
+    "guid": "ffea2a0fd78a7484f88b5b877c0d6659"
+  },
+  "SRF.UI.Editor.StyleSheetEditor": {
+    "fullName": "SRF.UI.Editor.StyleSheetEditor",
+    "fileID": 11500000,
+    "guid": "7cc490d54f84d704f90e31d72e293018"
+  },
+  "SRF.UI.Layout.FlowLayoutGroup": {
+    "fullName": "SRF.UI.Layout.FlowLayoutGroup",
+    "fileID": 11500000,
+    "guid": "f3a5149e46522d84cb8079537220a929"
+  },
+  "SRF.UI.Layout.VirtualVerticalLayoutGroup": {
+    "fullName": "SRF.UI.Layout.VirtualVerticalLayoutGroup",
+    "fileID": 11500000,
+    "guid": "19c408e3f064e184fa5e0d9862ac4d8b"
+  },
+  "YooAsset.Editor.AssetBundleBuilderWindow": {
+    "fullName": "YooAsset.Editor.AssetBundleBuilderWindow",
+    "fileID": 11500000,
+    "guid": "66e43420e95cd0b4bae8803a31e9817b"
+  },
+  "YooAsset.Editor.AssetBundleCollectorSetting": {
+    "fullName": "YooAsset.Editor.AssetBundleCollectorSetting",
+    "fileID": 11500000,
+    "guid": "185f6993d5150494d98da50e26cb1c25"
+  },
+  "YooAsset.Editor.AssetBundleCollectorWindow": {
+    "fullName": "YooAsset.Editor.AssetBundleCollectorWindow",
+    "fileID": 11500000,
+    "guid": "b730ebd685b28964a9f002593751e98a"
+  },
+  "YooAsset.Editor.AssetBundleDebuggerWindow": {
+    "fullName": "YooAsset.Editor.AssetBundleDebuggerWindow",
+    "fileID": 11500000,
+    "guid": "7375e313be9e6b24ab7193e64a67fa07"
+  },
+  "YooAsset.Editor.AssetBundleReporterWindow": {
+    "fullName": "YooAsset.Editor.AssetBundleReporterWindow",
+    "fileID": 11500000,
+    "guid": "0063c156ec88acc4d862f9b31e6c74ad"
+  },
+  "YooAsset.YooAssetsDriver": {
+    "fullName": "YooAsset.YooAssetsDriver",
+    "fileID": 11500000,
+    "guid": "6849dc1f64284274490437c22a811a1d"
+  },
+  "YooAsset.RemoteDebuggerInRuntime": {
+    "fullName": "YooAsset.RemoteDebuggerInRuntime",
+    "fileID": 11500000,
+    "guid": "91030c545c99c944a846f6a9a2a0756a"
+  },
+  "YooAsset.YooAssetSettings": {
+    "fullName": "YooAsset.YooAssetSettings",
+    "fileID": 11500000,
+    "guid": "5bd1afdce9715f84eb4cbc901922afc2"
+  }
+}

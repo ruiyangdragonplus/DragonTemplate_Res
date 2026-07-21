@@ -1,0 +1,21 @@
+{
+  "name": "com.dragonplus.exportdllfixguid",
+  "version": "1.0.0",
+  "displayName": "ExportDllFixGuid",
+  "description": "导出dll，修复dll、源码代码引用guid",
+  "repositoryName": "UnityPackages",
+  "keywords": [
+    "export dll",
+    "fix guid"
+  ],
+  "author": {
+    "name": "dehuaichendragonplus",
+    "email": "dehuai.chen@dragonplus.com"
+  },
+  "dependencies": {
+    "com.unity.nuget.newtonsoft-json": "3.2.1"
+  },
+  "gitDependencies": {
+  },
+  "unity": "2022.3"
+} 

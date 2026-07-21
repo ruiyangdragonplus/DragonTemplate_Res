@@ -1,0 +1,234 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &1
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c414eef017e565c4db1442ec64ec52fe, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  buildPipelineSettings:
+    enable: 0
+    linkXmlProcessCallbackOrder: 10000
+    obfuscationProcessCallbackOrder: 10000
+  compatibilitySettings:
+    targetRuntime: 0
+  assemblySettings:
+    assembliesToObfuscate:
+    - Coffee.UIParticle
+    - EpForceDirectedGraph
+    - Febucci.Attributes.Runtime
+    - Febucci.TextAnimator.Editor
+    - Febucci.TextAnimator.Runtime
+    - Febucci.TextAnimator.TMP.Runtime
+    - game.Book
+    - game.EventBus
+    - game.Localization
+    - game.mono
+    - game.ScratchCard
+    - game.screwmatch
+    - game.utils
+    - game.utils.Editor
+    - Lofelt.NiceVibrations
+    - MaxSdk.Scripts
+    - NativeShare.Runtime
+    - nice_vibrations_editor_plugin
+    - Screw3D.Editor
+    - Scripts.Editor
+    - Scripts.Install
+    - Scripts.Protocol
+    - Scripts.Runtime
+    - Scripts.Storage
+    - spine-csharp
+    - spine-unity
+    - StompyRobot.SRDebugger
+    - StompyRobot.SRF
+    - UIEffect
+    - VHACD
+    - YooAsset
+    - Google.Protobuf
+    - Framework.Res.Config
+    - Framework.Runtime
+    - Framework.BI
+    - Framework.Main
+    - Framework.Res
+    - Framework.StateMachine
+    - Framework.Utils
+    - Framework.ResRuntime.Utils
+    - Assembly-CSharp
+    - DragonPlus.Account
+    - DragonPlus.Ad
+    - DragonPlus.Ad.Max
+    - DragonPlus.Config.Hub
+    - DragonPlus.Core
+    - DragonPlus.GooglePlay
+    - DragonPlus.Haptics
+    - DragonPlus.InAppPurchasing
+    - DragonPlus.Native.Bridge
+    - DragonPlus.Network
+    - DragonPlus.Protocol
+    - DragonPlus.Save
+    - DragonPlus.Tracking
+    - DragonPlus.DeepLinking
+    - UniWebView-CSharp
+    - DOTween
+    - SoftMask
+    - Firebase.Analytics
+    - Firebase.App
+    - Firebase.Crashlytics
+    - Firebase.DynamicLinks
+    - Firebase.Messaging
+    - Firebase.RemoteConfig
+    - Facebook.Unity.IOS
+    - UniTask
+    - Facebook.Unity
+    - Amazon.Scripts
+    - Firebase.Platform
+    - Firebase.TaskExtension
+    - DOTween.Modules
+    - Facebook.Unity.Android
+    - System.Xml
+    - Apple.Core
+    - Apple.GameKit
+    - AppleAuth
+    - PPv2URPConverters
+    - Purchasing.Common
+    - RGB.Mulligan
+    - DOTweenPro
+    - Demigiant
+    - TimelineExtensions
+    - YooAsset.Extension
+    - Game.Launcher
+    nonObfuscatedButReferencingObfuscatedAssemblies:
+    - LaunchRoot
+    - Launcher
+    - HotFixDllLoader
+    - DragonPlus.ResourceManager
+    - System.Configuration
+    - System.Data.Entity
+    - System.Data.Linq
+    - System.Data.Services.Client
+    - System.Data
+    - System.Design
+    - System.DirectoryServices.Protocols
+    - System.IdentityModel.Selectors
+    - System.IdentityModel
+    - System.Runtime.Serialization
+    - System.Security
+    - System.ServiceModel.Discovery
+    - System.ServiceModel.Internals
+    - System.ServiceModel.Web
+    - System.ServiceModel
+    - System.Web.Services
+    - System.Web
+    - System.Windows.Forms.DataVisualization
+    - System.Xaml
+    - System.Xml.Linq
+    - System.Xml.ReaderWriter
+    - System.Xml.Serialization
+    - System.Xml.XPath.XmlDocument
+    - System.Xml.XPath
+    - System.Xml.XmlDocument
+    - System.Xml.XmlSerializer
+    - System.Xml.Xsl.Primitives
+    - System
+    - UniTask.Linq
+    - UniTask.TextMeshPro
+    - spine-timeline
+    - UnityEngine.Purchasing.Stores
+    - netstandard
+    - UnityEngine.Purchasing.AppleCore
+    - UnityEngine.Purchasing.AppleMacosStub
+    - UnityEngine.Purchasing.AppleStub
+    - UnityEngine.Purchasing.Security
+    - UnityEngine.Purchasing.Apple
+    - Activity
+    - Decoration
+    - GM
+    - Game.Framework
+    - Game.Config
+    - Game.Gameplay
+    - Game.Model
+    - Game.Protocol
+    - ColorBean.GamePlay
+    - ObfuzEncryptionInitializer
+    - spineEx
+    additionalAssemblySearchPaths: []
+    obfuscateObfuzRuntime: 1
+  obfuscationPassSettings:
+    enabledPasses: 1056257
+    ruleFiles: []
+  secretSettings:
+    defaultStaticSecretKey: Code Philosophy-Static
+    defaultDynamicSecretKey: Code Philosophy-Dynamic
+    staticSecretKeyOutputPath: Assets/Resources/Obfuz/defaultStaticSecretKey.bytes
+    dynamicSecretKeyOutputPath: Assets/Resources/Obfuz/defaultDynamicSecretKey.bytes
+    randomSeed: 0
+    assembliesUsingDynamicSecretKeys: []
+  encryptionVMSettings:
+    codeGenerationSecretKey: Obfuz
+    encryptionOpCodeCount: 256
+    codeOutputPath: Assets/Scripts/ObfuzEncryptionInitializer/Obfuz/GeneratedEncryptionVirtualMachine.cs
+  symbolObfusSettings:
+    debug: 0
+    obfuscatedNamePrefix: $
+    useConsistentNamespaceObfuscation: 1
+    detectReflectionCompatibility: 1
+    keepUnknownSymbolInSymbolMappingFile: 1
+    symbolMappingFile: Assets/Obfuz/SymbolObfus/symbol-mapping.xml
+    debugSymbolMappingFile: Assets/Obfuz/SymbolObfus/symbol-mapping-debug.xml
+    ruleFiles: []
+    customRenamePolicyTypes: []
+  constEncryptSettings:
+    encryptionLevel: 1
+    ruleFiles: []
+  removeConstFieldSettings:
+    ruleFiles: []
+  evalStackObfusSettings:
+    ruleFiles: []
+  fieldEncryptSettings:
+    encryptionLevel: 1
+    ruleFiles: []
+  callObfusSettings:
+    proxyMode: 0
+    obfuscationLevel: 1
+    maxProxyMethodCountPerDispatchMethod: 100
+    obfuscateCallToMethodInMscorlib: 0
+    ruleFiles: []
+  exprObfusSettings:
+    ruleFiles: []
+  controlFlowObfusSettings:
+    minInstructionCountOfBasicBlockToObfuscate: 3
+    ruleFiles: []
+  garbageCodeGenerationSettings:
+    codeGenerationSecret: 9c4e1f7a6b2d8e35f0a9c7d1b4e6f2835a7d0c9e1f6b2a84d3e7c1f5a9b6d20e
+    defaultTask:
+      codeGenerationRandomSeed: 1774346401
+      classNamespace: DummyCode
+      classNamePrefix: DummyCodeClass
+      classCount: 500
+      methodCountPerClass: 60
+      fieldCountPerClass: 10
+      garbageCodeType: 1
+      outputPath: Assets/Obfuz/DummyCode
+    additionalTasks:
+    - codeGenerationRandomSeed: 1774346475
+      classNamespace: DummyCodeAuth
+      classNamePrefix: DummyCodeAuthClass
+      classCount: 900
+      methodCountPerClass: 60
+      fieldCountPerClass: 15
+      garbageCodeType: 2
+      outputPath: Assets/Obfuz/DummyCodeAuth
+  watermarkSettings:
+    text: Obfuscated by Obfuz
+    signatureLength: 256
+  polymorphicDllSettings:
+    enable: 1
+    codeGenerationSecretKey: obfuz-polymorphic-key
+    disableLoadStandardDll: 0

@@ -1,0 +1,19 @@
+{
+  "name": "Dragon.Provider.Analytics.Adjust",
+  "rootNamespace": "Dragon.Provider.AnalyticsAdjust",
+  "references": [
+    "Dragon.Core",
+    "UniTask"
+  ],
+  "includePlatforms": [],
+  "excludePlatforms": [],
+  "allowUnsafeCode": false,
+  "overrideReferences": false,
+  "precompiledReferences": [],
+  "autoReferenced": false,
+  "defineConstraints": [
+    "DRAGON_ANALYTICS_ADJUST"
+  ],
+  "versionDefines": [],
+  "noEngineReferences": false
+}

@@ -1,0 +1,16 @@
+{
+  "name": "_ModuleTemplate",
+  "version": "0.1.0",
+  "description": "玩法模块骨架。new_module.sh 以此为模板复制并替换名称。",
+  "requires": {
+    "systems": ["IEventSystem", "IConfigSystem", "IUISystem"],
+    "helpers": [],
+    "modules": []
+  },
+  "luban_tables": [],
+  "proto_files": [],
+  "res_groups": ["Modules/_ModuleTemplate"],
+  "stages": ["PlayingStage"],
+  "events_in": [],
+  "events_out": []
+}

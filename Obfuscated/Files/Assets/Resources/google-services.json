@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "617320330972",
+    "project_id": "fb-color-bean1",
+    "storage_bucket": "fb-color-bean1.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:617320330972:android:359b732cb8870736482619",
+        "android_client_info": {
+          "package_name": "com.unllg.colorbean"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBUTMdS00vsybmKSuaCEEwmaaSdtInXOJE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

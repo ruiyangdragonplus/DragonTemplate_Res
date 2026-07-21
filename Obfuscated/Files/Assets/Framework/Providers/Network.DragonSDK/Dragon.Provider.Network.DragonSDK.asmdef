@@ -1,0 +1,19 @@
+{
+  "name": "Dragon.Provider.Network.DragonSDK",
+  "rootNamespace": "Dragon.Provider.NetworkDragonSDK",
+  "references": [
+    "Dragon.Core",
+    "UniTask"
+  ],
+  "includePlatforms": [],
+  "excludePlatforms": [],
+  "allowUnsafeCode": false,
+  "overrideReferences": false,
+  "precompiledReferences": [],
+  "autoReferenced": false,
+  "defineConstraints": [
+    "DRAGON_NETWORK_DRAGONSDK"
+  ],
+  "versionDefines": [],
+  "noEngineReferences": false
+}

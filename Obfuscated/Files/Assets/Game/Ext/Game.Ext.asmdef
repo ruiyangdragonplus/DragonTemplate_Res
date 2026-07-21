@@ -1,0 +1,22 @@
+{
+  "name": "Game.Ext",
+  "rootNamespace": "Game.Ext",
+  "references": [
+    "Dragon.Core",
+    "Dragon.Framework",
+    "Game.Config",
+    "Game.Model",
+    "Game.Protocol",
+    "Game.Shared",
+    "UniTask"
+  ],
+  "includePlatforms": [],
+  "excludePlatforms": [],
+  "allowUnsafeCode": false,
+  "overrideReferences": false,
+  "precompiledReferences": [],
+  "autoReferenced": true,
+  "defineConstraints": [],
+  "versionDefines": [],
+  "noEngineReferences": false
+}

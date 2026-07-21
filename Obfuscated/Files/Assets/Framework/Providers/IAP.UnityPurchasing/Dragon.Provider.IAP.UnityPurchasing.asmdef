@@ -1,0 +1,20 @@
+{
+  "name": "Dragon.Provider.IAP.UnityPurchasing",
+  "rootNamespace": "Dragon.Provider.IAPUnityPurchasing",
+  "references": [
+    "Dragon.Core",
+    "UniTask",
+    "UnityEngine.Purchasing"
+  ],
+  "includePlatforms": [],
+  "excludePlatforms": [],
+  "allowUnsafeCode": false,
+  "overrideReferences": false,
+  "precompiledReferences": [],
+  "autoReferenced": false,
+  "defineConstraints": [
+    "DRAGON_IAP_UNITYPURCHASING"
+  ],
+  "versionDefines": [],
+  "noEngineReferences": false
+}

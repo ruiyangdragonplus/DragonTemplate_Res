@@ -1,0 +1,10 @@
+﻿{
+  "name": "DragonPlus.DeepLinking",
+  "references": [
+    "DragonPlus.Core",
+    "DragonPlus.Account",
+    "DragonPlus.Protocol",
+    "DragonPlus.Native.Bridge",
+    "DragonPlus.Save"
+  ]
+}

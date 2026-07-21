@@ -1,0 +1,21 @@
+{
+    "name": "Dragon.Provider.HotUpdate.HybridCLR",
+    "rootNamespace": "Dragon.Provider.HotUpdateHybridCLR",
+    "references": [
+        "Dragon.Core",
+        "UniTask",
+        "HybridCLR.Runtime",
+        "YooAsset"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": false,
+    "defineConstraints": [
+        "DRAGON_HOTUPDATE_HYBRIDCLR"
+    ],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

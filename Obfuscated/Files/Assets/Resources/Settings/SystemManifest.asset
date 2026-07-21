@@ -1,0 +1,53 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0748fce585c51a3489806a270d2b26fc, type: 3}
+  m_Name: SystemManifest
+  m_EditorClassIdentifier:
+  Systems:
+  - TypeName: DragonCD3.Coroutines.Standard.CoroutineSystem
+    Enabled: 1
+  - TypeName: DragonCD3.Haptics.Standard.HapticsSystem
+    Enabled: 1
+  - TypeName: DragonCD3.Activities.Standard.ActivitySystem
+    Enabled: 1
+  - TypeName: DragonCD3.Assets.YooAsset.AssetSystem
+    Enabled: 1
+  - TypeName: DragonCD3.Audio.Standard.AudioSystem
+    Enabled: 1
+  - TypeName: DragonCD3.Configuration.Standard.ConfigSystem
+    Enabled: 1
+  - TypeName: DragonCD3.Events.Standard.EventSystem
+    Enabled: 1
+  - TypeName: DragonCD3.IAP.UnityPurchasing.IAPSystem
+    Enabled: 1
+  - TypeName: DragonCD3.Model.Standard.ModelSystem
+    Enabled: 1
+  - TypeName: DragonCD3.Network.Standard.NetworkSystem
+    Enabled: 1
+  - TypeName: DragonCD3.NotificationsSystem
+    Enabled: 1
+  - TypeName: DragonCD3.StageSystem
+    Enabled: 1
+  - TypeName: DragonCD3.UI.Standard.UISystem
+    Enabled: 1
+  - TypeName: DragonCD3.Account.Standard.AccountSystem
+    Enabled: 1
+  - TypeName: DragonCD3.TaskListSystem
+    Enabled: 1
+  - TypeName: DragonCD3.RedPoint.RedPointSystem
+    Enabled: 1
+  - TypeName: DragonCD3.Advertise.Standard.AdvertiseSystem
+    Enabled: 1
+  - TypeName: DragonCD3.TouchMaskSystem
+    Enabled: 1
+  - TypeName: DragonCD3.Localization.TMP.LocalizationSystem
+    Enabled: 1

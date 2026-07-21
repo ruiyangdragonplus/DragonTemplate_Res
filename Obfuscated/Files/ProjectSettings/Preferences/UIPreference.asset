@@ -1,0 +1,9 @@
+{
+    "m_InternalCreatePreference": true,
+    "SpriteAtlasGenerateSettings": [
+        {
+            "SpriteFolder": "Assets/Res/ColorBean/Code/Textures",
+            "AtlasFolder": "Assets/Res/ColorBean/Art/Atlas"
+        }
+    ]
+}

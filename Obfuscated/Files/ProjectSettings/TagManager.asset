@@ -1,0 +1,62 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!78 &1
+TagManager:
+  serializedVersion: 2
+  tags:
+  - NoLocalizationText
+  layers:
+  - Default
+  - TransparentFX
+  - Ignore Raycast
+  - 
+  - Water
+  - UI
+  - ThreeMergeCell
+  - ThreeMergeItem
+  - WorldUI
+  - MatchEnv
+  - MahjongItem
+  - Shoter
+  - Block
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - PipeArea
+  - PipeConnector
+  - PipeLine
+  - 
+  - 
+  m_SortingLayers:
+  - name: Surface
+    uniqueID: 1678142057
+    locked: 0
+  - name: Land
+    uniqueID: 2788654853
+    locked: 0
+  - name: Default
+    uniqueID: 0
+    locked: 0
+  - name: ThreeMergeCell
+    uniqueID: 1433734429
+    locked: 0
+  - name: ThreeMergeItem
+    uniqueID: 2225216455
+    locked: 0
+  - name: ThreeMergeFlyable
+    uniqueID: 2538236099
+    locked: 0
+  - name: WorldUI
+    uniqueID: 2363433745
+    locked: 0

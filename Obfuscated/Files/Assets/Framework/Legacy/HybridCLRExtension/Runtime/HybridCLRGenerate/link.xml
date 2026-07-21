@@ -1,0 +1,76 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<linker>
+  <assembly fullname="Dragon.Core">
+    <type fullname="Dragon.Core.IAdsProvider" preserve="all" />
+    <type fullname="Dragon.Core.ProviderRegistry" preserve="all" />
+    <type fullname="Dragon.Core.SystemManifest" preserve="all" />
+  </assembly>
+  <assembly fullname="Dragon.Framework">
+    <type fullname="Dragon.Framework.Analytics" preserve="all" />
+    <type fullname="Dragon.Framework.SystemManifestBuilder" preserve="all" />
+  </assembly>
+  <assembly fullname="DragonPlus.Save">
+    <type fullname="DragonPlus.Save.StorageBase" preserve="all" />
+    <type fullname="DragonPlus.Save.StorageCommon" preserve="all" />
+  </assembly>
+  <assembly fullname="Game.Framework">
+    <type fullname="DragonCD3.Account.IAccountHelper" preserve="all" />
+    <type fullname="DragonCD3.Advertise.IAdvertiseHelper" preserve="all" />
+    <type fullname="DragonCD3.Assets.IAsyncOperationHandle`1" preserve="all" />
+    <type fullname="DragonCD3.GameManager" preserve="all" />
+    <type fullname="DragonCD3.GameStage" preserve="all" />
+    <type fullname="DragonCD3.GameSubStage" preserve="all" />
+    <type fullname="DragonCD3.GameSystem" preserve="all" />
+    <type fullname="DragonCD3.IAssetSystem" preserve="all" />
+    <type fullname="DragonCD3.ITaskListHelper" preserve="all" />
+    <type fullname="DragonCD3.ITouchMaskHelper" preserve="all" />
+    <type fullname="DragonCD3.IUISystem" preserve="all" />
+    <type fullname="DragonCD3.Localization.ILocalizationHelper" preserve="all" />
+    <type fullname="DragonCD3.Localization.LocalizationKV" preserve="all" />
+    <type fullname="DragonCD3.Localization.LocalizationLanguage" preserve="all" />
+    <type fullname="DragonCD3.RedPoint.IRedPointHelper" preserve="all" />
+    <type fullname="DragonCD3.RedPoint.RedPointTemplate" preserve="all" />
+    <type fullname="DragonCD3.TaskStaticAction" preserve="all" />
+    <type fullname="DragonCD3.UI.AViewDescriptorAttribute" preserve="all" />
+    <type fullname="DragonCD3.UI.IViewGroup" preserve="all" />
+    <type fullname="DragonCD3.UI.ViewDescriptorAttribute" preserve="all" />
+    <type fullname="DragonCD3.UI.ViewGroupAttribute" preserve="all" />
+    <type fullname="DragonCD3.Utility.EnumCache`1" preserve="all" />
+  </assembly>
+  <assembly fullname="System">
+    <type fullname="System.CodeDom.Compiler.GeneratedCodeAttribute" preserve="all" />
+    <type fullname="System.ComponentModel.EditorBrowsableAttribute" preserve="all" />
+    <type fullname="System.ComponentModel.EditorBrowsableState" preserve="all" />
+  </assembly>
+  <assembly fullname="Unity.TextMeshPro">
+    <type fullname="TMPro.TMP_FontAsset" preserve="all" />
+  </assembly>
+  <assembly fullname="UnityEngine.CoreModule">
+    <type fullname="UnityEngine.Application" preserve="all" />
+    <type fullname="UnityEngine.Material" preserve="all" />
+    <type fullname="UnityEngine.Object" preserve="all" />
+    <type fullname="UnityEngine.Resources" preserve="all" />
+  </assembly>
+  <assembly fullname="mscorlib">
+    <type fullname="System.Action" preserve="all" />
+    <type fullname="System.Action`1" preserve="all" />
+    <type fullname="System.Array" preserve="all" />
+    <type fullname="System.AttributeTargets" preserve="all" />
+    <type fullname="System.AttributeUsageAttribute" preserve="all" />
+    <type fullname="System.Byte" preserve="all" />
+    <type fullname="System.Collections.Generic.IReadOnlyDictionary`2" preserve="all" />
+    <type fullname="System.Collections.Generic.List`1" preserve="all" />
+    <type fullname="System.Diagnostics.DebuggableAttribute" preserve="all" />
+    <type fullname="System.Diagnostics.DebuggableAttribute/DebuggingModes" preserve="all" />
+    <type fullname="System.Enum" preserve="all" />
+    <type fullname="System.Int32" preserve="all" />
+    <type fullname="System.Object" preserve="all" />
+    <type fullname="System.Runtime.CompilerServices.CompilationRelaxationsAttribute" preserve="all" />
+    <type fullname="System.Runtime.CompilerServices.CompilerGeneratedAttribute" preserve="all" />
+    <type fullname="System.Runtime.CompilerServices.ExtensionAttribute" preserve="all" />
+    <type fullname="System.Runtime.CompilerServices.RuntimeCompatibilityAttribute" preserve="all" />
+    <type fullname="System.Runtime.CompilerServices.RuntimeHelpers" preserve="all" />
+    <type fullname="System.RuntimeFieldHandle" preserve="all" />
+    <type fullname="System.ValueType" preserve="all" />
+  </assembly>
+</linker>
