@@ -50,7 +50,11 @@ public static class UpdateScripts
         EditorApplication.update -= AutoCheckVersion;
         EditorApplication.update += AutoCheckVersion;
 
-#if !UNITY_6000_3_OR_NEWER
+#if UNITY_6000_3_OR_NEWER
+        // 官方 [MainToolbarElement] 注册之外的自愈检查（见 EnsureToolbarOverlay 注释）
+        s_EnsureRetry = 0;
+        EditorApplication.delayCall += EnsureToolbarOverlay;
+#else
         // 旧版：反射注入 Toolbar.m_Root（6000.3 起该树已分离不上屏，改走官方 API，见下方 MainToolbarElement）
         EditorApplication.update -= CreateToolbarButton;
         EditorApplication.update += CreateToolbarButton;
@@ -83,12 +87,6 @@ public static class UpdateScripts
         else
             menu.AddItem(new GUIContent("立即更新"), false, ExecuteUpdate);
         menu.AddItem(new GUIContent("自动更新"), AutoUpdate, () => { AutoUpdate = !AutoUpdate; });
-        menu.AddSeparator("");
-        menu.AddItem(new GUIContent("还原引擎"), false, () =>
-        {
-            if (EditorUtility.DisplayDialog("还原引擎", "还原后美术库将无法运行，确定要还原吗？", "确定", "好吧，那算了"))
-                RevertFromEncryptVersionUnity();
-        });
         menu.DropDown(buttonRect);
     }
 
@@ -97,6 +95,81 @@ public static class UpdateScripts
     {
         try { MainToolbar.Refresh(kToolbarElementPath); }
         catch { /* MainToolbar 可能尚未就绪 */ }
+    }
+
+    // ═══ 自愈注入 ═══
+    // OverlayCanvas.Initialize(MainToolbar 模式) 只在主工具栏窗口建立时枚举一次 [MainToolbarElement] 定义；
+    // 若那一刻本程序集尚未编译（工程首次打开时工具栏先于脚本编译建立），本元素的 Overlay 永远不会被创建，
+    // 之后的域重载也不会补建。这里在每次域重载后检查 Overlay 是否存在，缺失则按官方 Initialize 的
+    // 同款流程（new MainToolbarOverlay → AddOverlay → RestoreOverlay）反射补注入。
+    private static int s_EnsureRetry;
+
+    private static void EnsureToolbarOverlay()
+    {
+        try
+        {
+            if (EnsureToolbarOverlayOnce())
+                return;
+        }
+        catch { return; /* 反射面变化（后续 Unity 版本），放弃自愈，官方路径仍可能生效 */ }
+
+        if (++s_EnsureRetry <= 20)
+            EditorApplication.delayCall += EnsureToolbarOverlay; // 工具栏窗口尚未就绪，稍后重试
+    }
+
+    /// <returns>true=已存在或注入成功；false=窗口未就绪需重试。</returns>
+    private static bool EnsureToolbarOverlayOnce()
+    {
+        const BindingFlags kAll = BindingFlags.Public | BindingFlags.NonPublic | BindingFlags.Static | BindingFlags.Instance;
+        var editorAsm = typeof(Editor).Assembly;
+        var mtType = editorAsm.GetType("UnityEditor.Toolbars.MainToolbar");
+        if (mtType == null) return true; // 无此 API，视为无需处理
+
+        var tryGet = mtType.GetMethod("TryGetOverlay", kAll);
+        var getArgs = new object[] { kToolbarElementPath, null };
+        var existsProp = mtType.GetProperty("windowExists", kAll);
+        if (existsProp == null || !(bool)existsProp.GetValue(null)) return false; // 窗口未就绪
+        if ((bool)tryGet.Invoke(null, getArgs))
+        {
+            // Overlay 已在（官方路径已建）。但 Unity 6 对已有布局下新出现的第三方元素默认 displayed=false，
+            // 美术同学不会知道要去工具栏菜单手动开启——每台机器首次强制显示一次，之后尊重用户显隐选择。
+            EnsureDisplayedFirstTime(getArgs[1]);
+            return true;
+        }
+
+        var window = mtType.GetProperty("window", kAll).GetValue(null);
+        var canvas = window.GetType().GetProperty("overlayCanvas", kAll).GetValue(window);
+        var method = typeof(UpdateScripts).GetMethod(nameof(CreateUpdateDropdown), kAll);
+
+        var ovType = editorAsm.GetType("UnityEditor.Overlays.MainToolbarOverlay");
+        var overlay = Activator.CreateInstance(ovType, true);
+        ovType.GetProperty("createElementMethod", kAll).SetValue(overlay, method);
+
+        var oaType = editorAsm.GetType("UnityEditor.Overlays.OverlayAttribute");
+        var oa = Activator.CreateInstance(oaType);
+        Func<string, object> attr = p => oaType.GetProperty(p, kAll).GetValue(oa);
+        ovType.GetMethod("Initialize", kAll, null,
+                new[] { typeof(string), typeof(string), typeof(string), typeof(Vector2), typeof(Vector2), typeof(Vector2), typeof(int), typeof(string) }, null)
+            .Invoke(overlay, new[] { kToolbarElementPath, kToolbarElementPath, "更新代码", attr("defaultSize"), attr("minSize"), attr("maxSize"), attr("priority"), attr("group") });
+
+        var overlayBase = editorAsm.GetType("UnityEditor.Overlays.Overlay");
+        canvas.GetType().GetMethod("AddOverlay", kAll, null, new[] { overlayBase, typeof(bool) }, null)
+            .Invoke(canvas, new[] { overlay, (object)false });
+        var saveData = canvas.GetType().GetMethod("FindSaveData", kAll).Invoke(canvas, new[] { overlay });
+        canvas.GetType().GetMethod("RestoreOverlay", kAll).Invoke(canvas, new[] { overlay, saveData });
+
+        EnsureDisplayedFirstTime(overlay);
+        return true;
+    }
+
+    /// <summary>每台机器/每工程只强制显示一次；之后用户手动隐藏则尊重其选择。</summary>
+    private static void EnsureDisplayedFirstTime(object overlay)
+    {
+        if (overlay == null) return;
+        string key = "Dragon.UpdateScripts.ToolbarShown." + Application.dataPath.GetHashCode();
+        if (EditorPrefs.GetBool(key, false)) return;
+        overlay.GetType().GetProperty("displayed")?.SetValue(overlay, true);
+        EditorPrefs.SetBool(key, true);
     }
 #else
     private static void RefreshToolbarElement() { }
@@ -149,14 +222,6 @@ public static class UpdateScripts
             {
                 GenericMenu genericMenu = new GenericMenu();
                 genericMenu.AddItem(new GUIContent("自动更新"), AutoUpdate, () => { AutoUpdate = !AutoUpdate; });
-                genericMenu.AddItem(new GUIContent("还原引擎"), false, () =>
-                {
-                    if (EditorUtility.DisplayDialog("还原引擎", "还原后美术库将无法运行，确定要还原吗？", "确定", "好吧，那算了"))
-                    {
-                        RevertFromEncryptVersionUnity();
-                    }
-                });
-
                 genericMenu.ShowAsContext();
             }
             else
@@ -339,11 +404,6 @@ public static class UpdateScripts
             }
         }
 
-        // 如果需要更新unity，则直接跳过
-        // if (UpdateToEncryptVersionUnity())
-        // {
-        //     return;
-        // }
 
         s_IsUpdating = true;
 
@@ -492,181 +552,6 @@ public static class UpdateScripts
 
     #endregion
 
-    #region Encrypt
-
-    private static string GetEncryptToolPath()
-    {
-        if (RuntimeInformation.IsOSPlatform(OSPlatform.Windows))
-        {
-            return "../Encrypt/Windows";
-        }
-
-        if (RuntimeInformation.IsOSPlatform(OSPlatform.OSX))
-        {
-            switch (RuntimeInformation.OSArchitecture)
-            {
-                case Architecture.Arm:
-                    break;
-                case Architecture.Arm64:
-                    return "../Encrypt/MacOS_arm64";
-                case Architecture.X64:
-                case Architecture.X86:
-                    return "../Encrypt/MacOS_x86_64";
-            }
-        }
-
-        EditorUtility.DisplayDialog(ProgressBarTitle, "不支持当前平台，联系程序解决。", "ok");
-        throw new NotSupportedException();
-    }
-
-    private static string GetUnityPath()
-    {
-        if (RuntimeInformation.IsOSPlatform(OSPlatform.Windows))
-        {
-            return Path.GetDirectoryName(EditorApplication.applicationPath);
-        }
-
-        if (RuntimeInformation.IsOSPlatform(OSPlatform.OSX))
-        {
-            return EditorApplication.applicationPath;
-        }
-
-        EditorUtility.DisplayDialog(ProgressBarTitle, "不支持当前平台，联系程序解决。", "ok");
-        throw new NotSupportedException();
-    }
-
-    private static bool UpdateToEncryptVersionUnity()
-    {
-        string toolPath  = GetEncryptToolPath();
-        string unityPath = GetUnityPath();
-
-        string backupPath = $"{toolPath}/Backup";
-        if (Directory.Exists(backupPath) == false)
-        {
-            BackupFiles($"{toolPath}/Unity", unityPath, $"{toolPath}/Backup");
-        }
-
-        if (SyncFiles($"{toolPath}/Unity", unityPath) == false)
-        {
-            return false;
-        }
-
-        if (RuntimeInformation.IsOSPlatform(OSPlatform.Windows))
-        {
-            EditorUtility.DisplayDialog("更新引擎", $"Windows玩家请自己手动拷贝{Path.GetFullPath(toolPath)}/Unity/Data文件夹到{GetUnityPath()}里替换掉Data文件夹", "ok");
-        }
-        else
-        {
-            EditorUtility.DisplayDialog("更新引擎", "引擎还原成功，请重新打开unity", "ok");
-        }
-
-        EditorApplication.Exit(0);
-        return true;
-    }
-
-    private static void RevertFromEncryptVersionUnity()
-    {
-        string toolPath  = GetEncryptToolPath();
-        string unityPath = GetUnityPath();
-
-        string backupPath = $"{toolPath}/Backup";
-        if (Directory.Exists(backupPath) == false)
-        {
-            EditorUtility.DisplayDialog("还想还原引擎？", "还原失败了，备份不见了！！！\r\n要还原就卸载重装unity吧！", "哈哈哈，好玩吧？！");
-            return;
-        }
-
-        if (SyncFiles(backupPath, unityPath) == false)
-        {
-            EditorUtility.DisplayDialog("还原引擎", "当前已是正常版本，无需还原。", "ok");
-            return;
-        }
-
-        if (RuntimeInformation.IsOSPlatform(OSPlatform.Windows))
-        {
-            EditorUtility.DisplayDialog("还原引擎", $"Windows玩家请自己手动拷贝{Path.GetFullPath(toolPath)}/Backup/Data文件夹到{GetUnityPath()}里替换掉Data文件夹", "ok");
-        }
-        else
-        {
-            EditorUtility.DisplayDialog("还原引擎", "引擎还原成功，请重新打开unity", "ok");
-        }
-
-        EditorApplication.Exit(0);
-    }
-
-    private static void BackupFiles(string from, string willReplacePath, string backupToPath)
-    {
-        string[] files = Directory.GetFiles(from, "*", SearchOption.AllDirectories);
-        foreach (var file in files)
-        {
-            string relativePath = Path.GetRelativePath(from, file);
-            string directory    = $"{backupToPath}/{Path.GetDirectoryName(relativePath)}";
-            if (Directory.Exists(directory) == false)
-            {
-                Directory.CreateDirectory(directory);
-            }
-
-            File.Copy($"{willReplacePath}/{relativePath}", $"{backupToPath}/{relativePath}");
-        }
-    }
-
-    private static bool SyncFiles(string from, string to)
-    {
-        bool     anyChange = false;
-        string[] files     = Directory.GetFiles(from, "*", SearchOption.AllDirectories);
-        foreach (var file in files)
-        {
-            string relativePath = Path.GetRelativePath(from, file);
-            string toPath       = $"{to}/{relativePath}";
-            if (File.Exists(toPath) && IsSameFile(file, toPath))
-            {
-                continue;
-            }
-
-            anyChange = true;
-            break;
-        }
-
-        if (!anyChange)
-        {
-            return false;
-        }
-
-        if (RuntimeInformation.IsOSPlatform(OSPlatform.Windows) == false)
-        {
-            foreach (var file in files)
-            {
-                string relativePath = Path.GetRelativePath(from, file);
-                string toPath       = $"{to}/{relativePath}";
-                if (File.Exists(toPath))
-                {
-                    File.Delete(toPath);
-                }
-
-                File.Copy(file, toPath);
-            }
-
-            return true;
-        }
-
-        return true;
-
-        static bool IsSameFile(string a, string b)
-        {
-            var aData = File.ReadAllBytes(a);
-            var bData = File.ReadAllBytes(b);
-
-            if (aData.Length != bData.Length) return false;
-            for (var i = 0; i < aData.Length; i++)
-            {
-                if (aData[i] != bData[i]) return false;
-            }
-
-            return true;
-        }
-    }
-
-    #endregion
 
     #region
 
