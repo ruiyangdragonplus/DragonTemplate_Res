@@ -1,0 +1,19 @@
+{
+  "name": "Game.Boot",
+  "rootNamespace": "Game.Boot",
+  "references": [
+    "Dragon.Core",
+    "Dragon.Framework",
+    "Dragon.Launcher",
+    "UniTask"
+  ],
+  "includePlatforms": [],
+  "excludePlatforms": [],
+  "allowUnsafeCode": false,
+  "overrideReferences": false,
+  "precompiledReferences": [],
+  "autoReferenced": true,
+  "defineConstraints": [],
+  "versionDefines": [],
+  "noEngineReferences": false
+}

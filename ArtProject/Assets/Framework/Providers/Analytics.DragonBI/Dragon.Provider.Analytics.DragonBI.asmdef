@@ -1,0 +1,19 @@
+{
+  "name": "Dragon.Provider.Analytics.DragonBI",
+  "rootNamespace": "Dragon.Provider.AnalyticsDragonBI",
+  "references": [
+    "Dragon.Core",
+    "UniTask"
+  ],
+  "includePlatforms": [],
+  "excludePlatforms": [],
+  "allowUnsafeCode": false,
+  "overrideReferences": false,
+  "precompiledReferences": [],
+  "autoReferenced": false,
+  "defineConstraints": [
+    "DRAGON_ANALYTICS_DRAGONBI"
+  ],
+  "versionDefines": [],
+  "noEngineReferences": false
+}

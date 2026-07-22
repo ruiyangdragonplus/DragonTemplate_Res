@@ -1,0 +1,21 @@
+{
+    "name": "Dragon.Build.Editor",
+    "rootNamespace": "Dragon.Build",
+    "references": [
+        "Dragon.Core",
+        "Dragon.Framework",
+        "YooAsset.Extension.Editor",
+        "HybridCLR.Extensions.Editor"
+    ],
+    "includePlatforms": [
+        "Editor"
+    ],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

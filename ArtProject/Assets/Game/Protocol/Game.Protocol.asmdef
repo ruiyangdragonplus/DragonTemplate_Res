@@ -1,0 +1,16 @@
+{
+  "name": "Game.Protocol",
+  "rootNamespace": "Game.Protocol",
+  "references": [
+    "Dragon.Core"
+  ],
+  "includePlatforms": [],
+  "excludePlatforms": [],
+  "allowUnsafeCode": false,
+  "overrideReferences": false,
+  "precompiledReferences": [],
+  "autoReferenced": true,
+  "defineConstraints": [],
+  "versionDefines": [],
+  "noEngineReferences": false
+}

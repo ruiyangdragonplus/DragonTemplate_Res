@@ -1,0 +1,17 @@
+{
+  "name": "com.imaginationoverflow.universaldeeplinking",
+  "version": "0.0.21",
+  "unity": "2022.2",
+  "displayName": "Imagination Overflow Universal Deeplinking",
+  "description": "",
+  "keywords": [
+    "misc"
+  ],
+  "category": "SDK",
+  "dependencies": {
+  },
+  "author": {
+    "name": "DragonPlus"
+  },
+  "_fingerprint": "085e1205b4b5847010c9b2e04afb89398bad61e0"
+}

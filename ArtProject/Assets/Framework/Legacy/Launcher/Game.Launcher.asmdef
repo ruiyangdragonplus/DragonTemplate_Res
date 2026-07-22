@@ -1,0 +1,26 @@
+{
+    "name": "Game.Launcher",
+    "rootNamespace": "",
+    "references": [
+        "GUID:e34a5702dd353724aa315fb8011f08c3",
+        "GUID:6055be8ebefd69e48b49212b09b47b2f",
+        "GUID:4d1926c9df5b052469a1c63448b7609a",
+        "GUID:13ba8ce62aa80c74598530029cb2d649",
+        "GUID:653080b30138243d39514bb4d4fc48af",
+        "GUID:18b30148afccf49fdb25cd823000d4f7",
+        "GUID:15fc0a57446b3144c949da3e2b9737a9",
+        "GUID:dc8c1dcfca6058144b0296758fb2ebd2",
+        "Dragon.Core",
+        "Dragon.Framework",
+        "UniTask"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

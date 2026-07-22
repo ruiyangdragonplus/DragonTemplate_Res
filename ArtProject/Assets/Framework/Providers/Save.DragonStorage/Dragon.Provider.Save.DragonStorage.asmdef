@@ -1,0 +1,19 @@
+{
+  "name": "Dragon.Provider.Save.DragonStorage",
+  "rootNamespace": "Dragon.Provider.SaveDragonStorage",
+  "references": [
+    "Dragon.Core",
+    "UniTask"
+  ],
+  "includePlatforms": [],
+  "excludePlatforms": [],
+  "allowUnsafeCode": false,
+  "overrideReferences": false,
+  "precompiledReferences": [],
+  "autoReferenced": false,
+  "defineConstraints": [
+    "DRAGON_SAVE_DRAGONSTORAGE"
+  ],
+  "versionDefines": [],
+  "noEngineReferences": false
+}

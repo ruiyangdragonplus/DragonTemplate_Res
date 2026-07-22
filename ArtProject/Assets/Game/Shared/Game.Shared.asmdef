@@ -1,0 +1,17 @@
+{
+  "name": "Game.Shared",
+  "rootNamespace": "Game.Shared",
+  "references": [
+    "Dragon.Core",
+    "Game.Model"
+  ],
+  "includePlatforms": [],
+  "excludePlatforms": [],
+  "allowUnsafeCode": false,
+  "overrideReferences": false,
+  "precompiledReferences": [],
+  "autoReferenced": true,
+  "defineConstraints": [],
+  "versionDefines": [],
+  "noEngineReferences": false
+}

@@ -1,0 +1,19 @@
+{
+  "name": "Feature._ModuleTemplate",
+  "rootNamespace": "Feature.ModuleTemplate",
+  "references": [
+    "Dragon.Core",
+    "Dragon.Framework",
+    "Game.Shared",
+    "UniTask"
+  ],
+  "includePlatforms": [],
+  "excludePlatforms": [],
+  "allowUnsafeCode": false,
+  "overrideReferences": false,
+  "precompiledReferences": [],
+  "autoReferenced": true,
+  "defineConstraints": [],
+  "versionDefines": [],
+  "noEngineReferences": false
+}

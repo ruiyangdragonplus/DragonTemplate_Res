@@ -1,0 +1,1047 @@
+{
+  "dependencies": {
+    "com.adjust.sdk": {
+      "version": "0.0.9",
+      "depth": 2,
+      "source": "registry",
+      "dependencies": {},
+      "url": "https://upm.dragonplus.vip"
+    },
+    "com.anklebreaker.unity-mcp": {
+      "version": "2.32.0",
+      "depth": 0,
+      "source": "registry",
+      "dependencies": {},
+      "url": "https://package.openupm.com"
+    },
+    "com.apple.unityplugin.core": {
+      "version": "3.1.17",
+      "depth": 0,
+      "source": "registry",
+      "dependencies": {},
+      "url": "https://upm.dragonplus.vip"
+    },
+    "com.apple.unityplugin.gamekit": {
+      "version": "2.2.18",
+      "depth": 0,
+      "source": "registry",
+      "dependencies": {
+        "com.apple.unityplugin.core": "3.1.17"
+      },
+      "url": "https://upm.dragonplus.vip"
+    },
+    "com.applovin.mediation.adapters.bidmachine.android": {
+      "version": "3040000.0.0",
+      "depth": 0,
+      "source": "registry",
+      "dependencies": {},
+      "url": "https://unity.packages.applovin.com"
+    },
+    "com.applovin.mediation.adapters.bidmachine.ios": {
+      "version": "304000000.0.0",
+      "depth": 0,
+      "source": "registry",
+      "dependencies": {},
+      "url": "https://unity.packages.applovin.com"
+    },
+    "com.applovin.mediation.adapters.bytedance.android": {
+      "version": "707000200.0.0",
+      "depth": 0,
+      "source": "registry",
+      "dependencies": {},
+      "url": "https://unity.packages.applovin.com"
+    },
+    "com.applovin.mediation.adapters.bytedance.ios": {
+      "version": "707000600.0.0",
+      "depth": 0,
+      "source": "registry",
+      "dependencies": {},
+      "url": "https://unity.packages.applovin.com"
+    },
+    "com.applovin.mediation.adapters.chartboost.android": {
+      "version": "9090300.0.0",
+      "depth": 0,
+      "source": "registry",
+      "dependencies": {},
+      "url": "https://unity.packages.applovin.com"
+    },
+    "com.applovin.mediation.adapters.chartboost.ios": {
+      "version": "9100000.0.0",
+      "depth": 0,
+      "source": "registry",
+      "dependencies": {},
+      "url": "https://unity.packages.applovin.com"
+    },
+    "com.applovin.mediation.adapters.facebook.android": {
+      "version": "6200000.0.0",
+      "depth": 0,
+      "source": "registry",
+      "dependencies": {},
+      "url": "https://unity.packages.applovin.com"
+    },
+    "com.applovin.mediation.adapters.facebook.ios": {
+      "version": "6200100.0.0",
+      "depth": 0,
+      "source": "registry",
+      "dependencies": {},
+      "url": "https://unity.packages.applovin.com"
+    },
+    "com.applovin.mediation.adapters.fyber.android": {
+      "version": "8040000.0.0",
+      "depth": 0,
+      "source": "registry",
+      "dependencies": {},
+      "url": "https://unity.packages.applovin.com"
+    },
+    "com.applovin.mediation.adapters.fyber.ios": {
+      "version": "8040100.0.0",
+      "depth": 0,
+      "source": "registry",
+      "dependencies": {},
+      "url": "https://unity.packages.applovin.com"
+    },
+    "com.applovin.mediation.adapters.google.android": {
+      "version": "24050001.0.0",
+      "depth": 0,
+      "source": "registry",
+      "dependencies": {},
+      "url": "https://unity.packages.applovin.com"
+    },
+    "com.applovin.mediation.adapters.google.ios": {
+      "version": "12110000.0.0",
+      "depth": 0,
+      "source": "registry",
+      "dependencies": {},
+      "url": "https://unity.packages.applovin.com"
+    },
+    "com.applovin.mediation.adapters.inmobi.android": {
+      "version": "11020000.0.0",
+      "depth": 0,
+      "source": "registry",
+      "dependencies": {},
+      "url": "https://unity.packages.applovin.com"
+    },
+    "com.applovin.mediation.adapters.inmobi.ios": {
+      "version": "11020000.0.0",
+      "depth": 0,
+      "source": "registry",
+      "dependencies": {},
+      "url": "https://unity.packages.applovin.com"
+    },
+    "com.applovin.mediation.adapters.ironsource.android": {
+      "version": "811010000.0.0",
+      "depth": 0,
+      "source": "registry",
+      "dependencies": {},
+      "url": "https://unity.packages.applovin.com"
+    },
+    "com.applovin.mediation.adapters.ironsource.ios": {
+      "version": "811000000.0.0",
+      "depth": 0,
+      "source": "registry",
+      "dependencies": {},
+      "url": "https://unity.packages.applovin.com"
+    },
+    "com.applovin.mediation.adapters.mintegral.android": {
+      "version": "16099100.0.0",
+      "depth": 0,
+      "source": "registry",
+      "dependencies": {},
+      "url": "https://unity.packages.applovin.com"
+    },
+    "com.applovin.mediation.adapters.mintegral.ios": {
+      "version": "707090000.0.0",
+      "depth": 0,
+      "source": "registry",
+      "dependencies": {},
+      "url": "https://unity.packages.applovin.com"
+    },
+    "com.applovin.mediation.adapters.moloco.android": {
+      "version": "4080000.0.0",
+      "depth": 0,
+      "source": "registry",
+      "dependencies": {},
+      "url": "https://unity.packages.applovin.com"
+    },
+    "com.applovin.mediation.adapters.moloco.ios": {
+      "version": "4060000.0.0",
+      "depth": 0,
+      "source": "registry",
+      "dependencies": {},
+      "url": "https://unity.packages.applovin.com"
+    },
+    "com.applovin.mediation.adapters.unityads.android": {
+      "version": "4160100.0.0",
+      "depth": 0,
+      "source": "registry",
+      "dependencies": {},
+      "url": "https://unity.packages.applovin.com"
+    },
+    "com.applovin.mediation.adapters.unityads.ios": {
+      "version": "4160100.0.0",
+      "depth": 0,
+      "source": "registry",
+      "dependencies": {},
+      "url": "https://unity.packages.applovin.com"
+    },
+    "com.applovin.mediation.adapters.vungle.android": {
+      "version": "7060200.0.0",
+      "depth": 0,
+      "source": "registry",
+      "dependencies": {},
+      "url": "https://unity.packages.applovin.com"
+    },
+    "com.applovin.mediation.adapters.vungle.ios": {
+      "version": "7060300.0.0",
+      "depth": 0,
+      "source": "registry",
+      "dependencies": {},
+      "url": "https://unity.packages.applovin.com"
+    },
+    "com.code-philosophy.hybridclr": {
+      "version": "file:com.code-philosophy.hybridclr",
+      "depth": 0,
+      "source": "embedded",
+      "dependencies": {}
+    },
+    "com.code-philosophy.luban": {
+      "version": "1.1.1",
+      "depth": 0,
+      "source": "registry",
+      "dependencies": {},
+      "url": "https://package.openupm.com"
+    },
+    "com.code-philosophy.obfuz": {
+      "version": "3.1.0",
+      "depth": 0,
+      "source": "registry",
+      "dependencies": {},
+      "url": "https://package.openupm.com"
+    },
+    "com.code-philosophy.obfuz4hybridclr": {
+      "version": "3.0.0",
+      "depth": 0,
+      "source": "registry",
+      "dependencies": {},
+      "url": "https://package.openupm.com"
+    },
+    "com.cysharp.unitask": {
+      "version": "2.5.5",
+      "depth": 2,
+      "source": "registry",
+      "dependencies": {},
+      "url": "https://upm.dragonplus.vip"
+    },
+    "com.dragonplus.account": {
+      "version": "1.0.171",
+      "depth": 2,
+      "source": "registry",
+      "dependencies": {
+        "com.dragonplus.core": "1.0.103",
+        "com.dragonplus.save": "1.0.126",
+        "com.dragonplus.protocol": "1.0.31",
+        "com.dragonplus.network": "1.0.99",
+        "com.dragonplus.native.bridge": "1.0.103",
+        "com.lupidan.apple-signin-unity": "1.4.2",
+        "com.google.play.games": "0.11.11",
+        "com.facebook.unity.sdk": "17.0.5",
+        "com.google.signin": "0.0.6",
+        "com.apple.unityplugin.gamekit": "2.2.18"
+      },
+      "url": "https://upm.dragonplus.vip"
+    },
+    "com.dragonplus.ad": {
+      "version": "1.0.143",
+      "depth": 1,
+      "source": "registry",
+      "dependencies": {
+        "com.dragonplus.core": "1.0.103",
+        "com.dragonplus.save": "1.0.126",
+        "com.dragonplus.protocol": "1.0.31",
+        "com.dragonplus.native.bridge": "1.0.103"
+      },
+      "url": "https://upm.dragonplus.vip"
+    },
+    "com.dragonplus.ad.max": {
+      "version": "1.0.253",
+      "depth": 0,
+      "source": "registry",
+      "dependencies": {
+        "com.dragonplus.core": "1.0.103",
+        "com.dragonplus.save": "1.0.126",
+        "com.dragonplus.ad": "1.0.143",
+        "com.dragonplus.uniwebview": "1.0.1",
+        "com.dragonplus.tracking": "1.0.223",
+        "com.dragonplus.native.bridge": "1.0.103",
+        "com.dragonplus.iap": "1.0.156"
+      },
+      "url": "https://upm.dragonplus.vip"
+    },
+    "com.dragonplus.config.hub": {
+      "version": "1.0.131",
+      "depth": 2,
+      "source": "registry",
+      "dependencies": {
+        "com.unity.nuget.newtonsoft-json": "3.2.1",
+        "com.dragonplus.core": "1.0.103",
+        "com.dragonplus.save": "1.0.126",
+        "com.dragonplus.network": "1.0.99",
+        "com.dragonplus.protocol": "1.0.31",
+        "com.cysharp.unitask": "2.5.4"
+      },
+      "url": "https://upm.dragonplus.vip"
+    },
+    "com.dragonplus.core": {
+      "version": "1.0.103",
+      "depth": 1,
+      "source": "registry",
+      "dependencies": {
+        "com.cysharp.unitask": "2.5.5",
+        "com.dragonplus.protocol": "1.0.31",
+        "com.dragonplus.packageinstaller": "1.0.6",
+        "com.google.ads.mobile": "9.4.8"
+      },
+      "url": "https://upm.dragonplus.vip"
+    },
+    "com.dragonplus.gooleplay": {
+      "version": "1.0.132",
+      "depth": 0,
+      "source": "registry",
+      "dependencies": {
+        "com.dragonplus.core": "1.0.103",
+        "com.dragonplus.save": "1.0.126",
+        "com.google.play.common": "1.8.1",
+        "com.google.play.core": "1.8.1",
+        "com.google.play.review": "1.8.1"
+      },
+      "url": "https://upm.dragonplus.vip"
+    },
+    "com.dragonplus.haptics": {
+      "version": "1.0.93",
+      "depth": 0,
+      "source": "registry",
+      "dependencies": {
+        "com.dragonplus.core": "1.0.103"
+      },
+      "url": "https://upm.dragonplus.vip"
+    },
+    "com.dragonplus.iap": {
+      "version": "1.0.156",
+      "depth": 1,
+      "source": "registry",
+      "dependencies": {
+        "com.unity.purchasing": "4.13.0",
+        "com.dragonplus.core": "1.0.103",
+        "com.dragonplus.save": "1.0.126",
+        "com.dragonplus.protocol": "1.0.31",
+        "com.dragonplus.network": "1.0.99"
+      },
+      "url": "https://upm.dragonplus.vip"
+    },
+    "com.dragonplus.native.bridge": {
+      "version": "1.0.103",
+      "depth": 1,
+      "source": "registry",
+      "dependencies": {
+        "com.dragonplus.core": "1.0.103"
+      },
+      "url": "https://upm.dragonplus.vip"
+    },
+    "com.dragonplus.network": {
+      "version": "1.0.99",
+      "depth": 2,
+      "source": "registry",
+      "dependencies": {
+        "com.dragonplus.core": "1.0.103",
+        "com.dragonplus.protocol": "1.0.31"
+      },
+      "url": "https://upm.dragonplus.vip"
+    },
+    "com.dragonplus.packageinstaller": {
+      "version": "1.0.6",
+      "depth": 2,
+      "source": "registry",
+      "dependencies": {
+        "com.unity.nuget.newtonsoft-json": "3.2.1"
+      },
+      "url": "https://upm.dragonplus.vip"
+    },
+    "com.dragonplus.protocol": {
+      "version": "1.0.31",
+      "depth": 2,
+      "source": "registry",
+      "dependencies": {},
+      "url": "https://upm.dragonplus.vip"
+    },
+    "com.dragonplus.save": {
+      "version": "1.0.126",
+      "depth": 1,
+      "source": "registry",
+      "dependencies": {
+        "com.dragonplus.core": "1.0.103",
+        "com.dragonplus.protocol": "1.0.31",
+        "com.dragonplus.network": "1.0.99",
+        "com.dragonplus.native.bridge": "1.0.103"
+      },
+      "url": "https://upm.dragonplus.vip"
+    },
+    "com.dragonplus.tracking": {
+      "version": "1.0.223",
+      "depth": 1,
+      "source": "registry",
+      "dependencies": {
+        "com.adjust.sdk": "0.0.9",
+        "com.cysharp.unitask": "2.5.4",
+        "com.dragonplus.iap": "1.0.156",
+        "com.dragonplus.core": "1.0.103",
+        "com.dragonplus.config.hub": "1.0.131",
+        "com.dragonplus.save": "1.0.126",
+        "com.dragonplus.network": "1.0.99",
+        "com.dragonplus.protocol": "1.0.31",
+        "com.dragonplus.native.bridge": "1.0.103",
+        "com.dragonplus.account": "1.0.171"
+      },
+      "url": "https://upm.dragonplus.vip"
+    },
+    "com.dragonplus.uniwebview": {
+      "version": "1.0.1",
+      "depth": 1,
+      "source": "registry",
+      "dependencies": {},
+      "url": "https://upm.dragonplus.vip"
+    },
+    "com.facebook.unity.sdk": {
+      "version": "17.0.5",
+      "depth": 3,
+      "source": "registry",
+      "dependencies": {},
+      "url": "https://upm.dragonplus.vip"
+    },
+    "com.google.ads.mobile": {
+      "version": "9.4.8",
+      "depth": 2,
+      "source": "registry",
+      "dependencies": {
+        "com.google.external-dependency-manager": "1.2.183",
+        "com.unity.modules.androidjni": "1.0.0"
+      },
+      "url": "https://upm.dragonplus.vip"
+    },
+    "com.google.android.appbundle": {
+      "version": "1.10.0",
+      "depth": 0,
+      "source": "registry",
+      "dependencies": {},
+      "url": "https://upm.dragonplus.vip"
+    },
+    "com.google.external-dependency-manager": {
+      "version": "1.2.186",
+      "depth": 0,
+      "source": "registry",
+      "dependencies": {},
+      "url": "https://upm.dragonplus.vip"
+    },
+    "com.google.firebase": {
+      "version": "0.0.15",
+      "depth": 0,
+      "source": "registry",
+      "dependencies": {},
+      "url": "https://upm.dragonplus.vip"
+    },
+    "com.google.play.common": {
+      "version": "1.8.1",
+      "depth": 1,
+      "source": "registry",
+      "dependencies": {
+        "com.google.android.appbundle": "1.8.0"
+      },
+      "url": "https://upm.dragonplus.vip"
+    },
+    "com.google.play.core": {
+      "version": "1.8.1",
+      "depth": 1,
+      "source": "registry",
+      "dependencies": {
+        "com.google.android.appbundle": "1.8.0",
+        "com.google.external-dependency-manager": "1.2.172"
+      },
+      "url": "https://upm.dragonplus.vip"
+    },
+    "com.google.play.games": {
+      "version": "0.11.11",
+      "depth": 3,
+      "source": "registry",
+      "dependencies": {},
+      "url": "https://upm.dragonplus.vip"
+    },
+    "com.google.play.review": {
+      "version": "1.8.1",
+      "depth": 1,
+      "source": "registry",
+      "dependencies": {
+        "com.google.play.common": "1.8.1",
+        "com.google.play.core": "1.8.1"
+      },
+      "url": "https://upm.dragonplus.vip"
+    },
+    "com.google.signin": {
+      "version": "0.0.6",
+      "depth": 3,
+      "source": "registry",
+      "dependencies": {},
+      "url": "https://upm.dragonplus.vip"
+    },
+    "com.imaginationoverflow.universaldeeplinking": {
+      "version": "file:com.imaginationoverflow.universaldeeplinking@085e1205b4b5",
+      "depth": 0,
+      "source": "embedded",
+      "dependencies": {}
+    },
+    "com.lupidan.apple-signin-unity": {
+      "version": "1.4.2",
+      "depth": 3,
+      "source": "registry",
+      "dependencies": {},
+      "url": "https://upm.dragonplus.vip"
+    },
+    "com.unity.2d.sprite": {
+      "version": "1.0.0",
+      "depth": 0,
+      "source": "builtin",
+      "dependencies": {}
+    },
+    "com.unity.2d.tilemap": {
+      "version": "1.0.0",
+      "depth": 0,
+      "source": "builtin",
+      "dependencies": {
+        "com.unity.modules.tilemap": "1.0.0",
+        "com.unity.modules.uielements": "1.0.0"
+      }
+    },
+    "com.unity.2d.tilemap.extras": {
+      "version": "3.1.3",
+      "depth": 0,
+      "source": "registry",
+      "dependencies": {
+        "com.unity.ugui": "1.0.0",
+        "com.unity.2d.tilemap": "1.0.0",
+        "com.unity.modules.tilemap": "1.0.0",
+        "com.unity.modules.jsonserialize": "1.0.0"
+      },
+      "url": "https://packages.unity.com"
+    },
+    "com.unity.ai.inference": {
+      "version": "2.5.0",
+      "depth": 0,
+      "source": "registry",
+      "dependencies": {
+        "com.unity.burst": "1.8.17",
+        "com.unity.dt.app-ui": "1.3.3",
+        "com.unity.collections": "2.4.3",
+        "com.unity.nuget.newtonsoft-json": "3.2.1",
+        "com.unity.modules.imageconversion": "1.0.0"
+      },
+      "url": "https://packages.unity.com"
+    },
+    "com.unity.burst": {
+      "version": "1.8.29",
+      "depth": 1,
+      "source": "registry",
+      "dependencies": {
+        "com.unity.mathematics": "1.2.1",
+        "com.unity.modules.jsonserialize": "1.0.0"
+      },
+      "url": "https://packages.unity.com"
+    },
+    "com.unity.collab-proxy": {
+      "version": "2.7.1",
+      "depth": 0,
+      "source": "registry",
+      "dependencies": {},
+      "url": "https://packages.unity.com"
+    },
+    "com.unity.collections": {
+      "version": "2.5.7",
+      "depth": 0,
+      "source": "registry",
+      "dependencies": {
+        "com.unity.burst": "1.8.19",
+        "com.unity.mathematics": "1.3.2",
+        "com.unity.test-framework": "1.4.6",
+        "com.unity.nuget.mono-cecil": "1.11.5",
+        "com.unity.test-framework.performance": "3.0.3"
+      },
+      "url": "https://packages.unity.com"
+    },
+    "com.unity.dt.app-ui": {
+      "version": "2.1.1",
+      "depth": 1,
+      "source": "registry",
+      "dependencies": {
+        "com.unity.modules.physics": "1.0.0",
+        "com.unity.modules.androidjni": "1.0.0",
+        "com.unity.modules.uielements": "1.0.0",
+        "com.unity.modules.screencapture": "1.0.0"
+      },
+      "url": "https://packages.unity.com"
+    },
+    "com.unity.editorcoroutines": {
+      "version": "1.0.1",
+      "depth": 1,
+      "source": "registry",
+      "dependencies": {},
+      "url": "https://packages.unity.com"
+    },
+    "com.unity.ext.nunit": {
+      "version": "2.0.5",
+      "depth": 1,
+      "source": "builtin",
+      "dependencies": {}
+    },
+    "com.unity.feature.development": {
+      "version": "1.0.2",
+      "depth": 0,
+      "source": "builtin",
+      "dependencies": {
+        "com.unity.ide.visualstudio": "2.0.26",
+        "com.unity.ide.rider": "3.0.39",
+        "com.unity.editorcoroutines": "1.0.1",
+        "com.unity.performance.profile-analyzer": "1.3.3",
+        "com.unity.test-framework": "1.6.0",
+        "com.unity.testtools.codecoverage": "1.3.0"
+      }
+    },
+    "com.unity.ide.rider": {
+      "version": "3.0.39",
+      "depth": 1,
+      "source": "registry",
+      "dependencies": {
+        "com.unity.ext.nunit": "1.0.6"
+      },
+      "url": "https://packages.unity.com"
+    },
+    "com.unity.ide.visualstudio": {
+      "version": "2.0.26",
+      "depth": 1,
+      "source": "registry",
+      "dependencies": {
+        "com.unity.test-framework": "1.1.33"
+      },
+      "url": "https://packages.unity.com"
+    },
+    "com.unity.mathematics": {
+      "version": "1.3.3",
+      "depth": 1,
+      "source": "registry",
+      "dependencies": {},
+      "url": "https://packages.unity.com"
+    },
+    "com.unity.memoryprofiler": {
+      "version": "1.1.6",
+      "depth": 0,
+      "source": "registry",
+      "dependencies": {
+        "com.unity.burst": "1.8.0",
+        "com.unity.collections": "1.2.3",
+        "com.unity.mathematics": "1.2.1",
+        "com.unity.profiling.core": "1.0.0",
+        "com.unity.editorcoroutines": "1.0.0"
+      },
+      "url": "https://packages.unity.com"
+    },
+    "com.unity.mobile.android-logcat": {
+      "version": "1.4.7",
+      "depth": 0,
+      "source": "registry",
+      "dependencies": {},
+      "url": "https://packages.unity.com"
+    },
+    "com.unity.mobile.notifications": {
+      "version": "2.4.0",
+      "depth": 0,
+      "source": "registry",
+      "dependencies": {
+        "com.unity.modules.androidjni": "1.0.0"
+      },
+      "url": "https://packages.unity.com"
+    },
+    "com.unity.nuget.mono-cecil": {
+      "version": "1.11.6",
+      "depth": 1,
+      "source": "registry",
+      "dependencies": {},
+      "url": "https://packages.unity.com"
+    },
+    "com.unity.nuget.newtonsoft-json": {
+      "version": "3.2.2",
+      "depth": 1,
+      "source": "registry",
+      "dependencies": {},
+      "url": "https://packages.unity.com"
+    },
+    "com.unity.performance.profile-analyzer": {
+      "version": "1.3.3",
+      "depth": 1,
+      "source": "registry",
+      "dependencies": {},
+      "url": "https://packages.unity.com"
+    },
+    "com.unity.profiling.core": {
+      "version": "1.0.3",
+      "depth": 1,
+      "source": "registry",
+      "dependencies": {},
+      "url": "https://packages.unity.com"
+    },
+    "com.unity.purchasing": {
+      "version": "4.14.2",
+      "depth": 0,
+      "source": "registry",
+      "dependencies": {
+        "com.unity.ugui": "1.0.0",
+        "com.unity.services.core": "1.12.5",
+        "com.unity.modules.androidjni": "1.0.0",
+        "com.unity.modules.jsonserialize": "1.0.0",
+        "com.unity.modules.unitywebrequest": "1.0.0"
+      },
+      "url": "https://packages.unity.com"
+    },
+    "com.unity.recorder": {
+      "version": "4.0.3",
+      "depth": 0,
+      "source": "registry",
+      "dependencies": {
+        "com.unity.timeline": "1.0.0"
+      },
+      "url": "https://packages.unity.com"
+    },
+    "com.unity.render-pipelines.core": {
+      "version": "17.3.0",
+      "depth": 1,
+      "source": "builtin",
+      "dependencies": {
+        "com.unity.burst": "1.8.14",
+        "com.unity.mathematics": "1.3.2",
+        "com.unity.ugui": "2.0.0",
+        "com.unity.collections": "2.4.3",
+        "com.unity.modules.physics": "1.0.0",
+        "com.unity.modules.terrain": "1.0.0",
+        "com.unity.modules.jsonserialize": "1.0.0"
+      }
+    },
+    "com.unity.render-pipelines.universal": {
+      "version": "17.3.0",
+      "depth": 0,
+      "source": "builtin",
+      "dependencies": {
+        "com.unity.render-pipelines.core": "17.3.0",
+        "com.unity.shadergraph": "17.3.0",
+        "com.unity.render-pipelines.universal-config": "17.0.3"
+      }
+    },
+    "com.unity.render-pipelines.universal-config": {
+      "version": "17.0.3",
+      "depth": 1,
+      "source": "builtin",
+      "dependencies": {
+        "com.unity.render-pipelines.core": "17.0.3"
+      }
+    },
+    "com.unity.scriptablebuildpipeline": {
+      "version": "1.21.25",
+      "depth": 0,
+      "source": "registry",
+      "dependencies": {},
+      "url": "https://packages.unity.com"
+    },
+    "com.unity.searcher": {
+      "version": "4.9.4",
+      "depth": 2,
+      "source": "registry",
+      "dependencies": {},
+      "url": "https://packages.unity.com"
+    },
+    "com.unity.services.core": {
+      "version": "1.16.0",
+      "depth": 1,
+      "source": "registry",
+      "dependencies": {
+        "com.unity.modules.androidjni": "1.0.0",
+        "com.unity.nuget.newtonsoft-json": "3.2.1",
+        "com.unity.modules.unitywebrequest": "1.0.0"
+      },
+      "url": "https://packages.unity.com"
+    },
+    "com.unity.settings-manager": {
+      "version": "2.1.1",
+      "depth": 2,
+      "source": "registry",
+      "dependencies": {},
+      "url": "https://packages.unity.com"
+    },
+    "com.unity.shadergraph": {
+      "version": "17.3.0",
+      "depth": 1,
+      "source": "builtin",
+      "dependencies": {
+        "com.unity.render-pipelines.core": "17.3.0",
+        "com.unity.searcher": "4.9.3"
+      }
+    },
+    "com.unity.test-framework": {
+      "version": "1.6.0",
+      "depth": 1,
+      "source": "builtin",
+      "dependencies": {
+        "com.unity.ext.nunit": "2.0.3",
+        "com.unity.modules.imgui": "1.0.0",
+        "com.unity.modules.jsonserialize": "1.0.0"
+      }
+    },
+    "com.unity.test-framework.performance": {
+      "version": "3.4.0",
+      "depth": 1,
+      "source": "registry",
+      "dependencies": {
+        "com.unity.test-framework": "1.1.33",
+        "com.unity.modules.jsonserialize": "1.0.0"
+      },
+      "url": "https://packages.unity.com"
+    },
+    "com.unity.testtools.codecoverage": {
+      "version": "1.3.0",
+      "depth": 1,
+      "source": "registry",
+      "dependencies": {
+        "com.unity.test-framework": "1.4.5",
+        "com.unity.settings-manager": "2.0.0"
+      },
+      "url": "https://packages.unity.com"
+    },
+    "com.unity.timeline": {
+      "version": "1.7.7",
+      "depth": 0,
+      "source": "registry",
+      "dependencies": {
+        "com.unity.modules.audio": "1.0.0",
+        "com.unity.modules.director": "1.0.0",
+        "com.unity.modules.animation": "1.0.0",
+        "com.unity.modules.particlesystem": "1.0.0"
+      },
+      "url": "https://packages.unity.com"
+    },
+    "com.unity.ugui": {
+      "version": "2.0.0",
+      "depth": 0,
+      "source": "builtin",
+      "dependencies": {
+        "com.unity.modules.ui": "1.0.0",
+        "com.unity.modules.imgui": "1.0.0"
+      }
+    },
+    "com.unity.visualscripting": {
+      "version": "1.9.4",
+      "depth": 0,
+      "source": "registry",
+      "dependencies": {
+        "com.unity.ugui": "1.0.0",
+        "com.unity.modules.jsonserialize": "1.0.0"
+      },
+      "url": "https://packages.unity.com"
+    },
+    "com.yasirkula.nativeshare": {
+      "version": "1.5.3",
+      "depth": 0,
+      "source": "registry",
+      "dependencies": {},
+      "url": "https://upm.dragonplus.vip"
+    },
+    "com.unity.modules.androidjni": {
+      "version": "1.0.0",
+      "depth": 0,
+      "source": "builtin",
+      "dependencies": {}
+    },
+    "com.unity.modules.animation": {
+      "version": "1.0.0",
+      "depth": 0,
+      "source": "builtin",
+      "dependencies": {}
+    },
+    "com.unity.modules.assetbundle": {
+      "version": "1.0.0",
+      "depth": 0,
+      "source": "builtin",
+      "dependencies": {}
+    },
+    "com.unity.modules.audio": {
+      "version": "1.0.0",
+      "depth": 0,
+      "source": "builtin",
+      "dependencies": {}
+    },
+    "com.unity.modules.director": {
+      "version": "1.0.0",
+      "depth": 0,
+      "source": "builtin",
+      "dependencies": {
+        "com.unity.modules.audio": "1.0.0",
+        "com.unity.modules.animation": "1.0.0"
+      }
+    },
+    "com.unity.modules.hierarchycore": {
+      "version": "1.0.0",
+      "depth": 1,
+      "source": "builtin",
+      "dependencies": {}
+    },
+    "com.unity.modules.imageconversion": {
+      "version": "1.0.0",
+      "depth": 0,
+      "source": "builtin",
+      "dependencies": {}
+    },
+    "com.unity.modules.imgui": {
+      "version": "1.0.0",
+      "depth": 0,
+      "source": "builtin",
+      "dependencies": {}
+    },
+    "com.unity.modules.jsonserialize": {
+      "version": "1.0.0",
+      "depth": 0,
+      "source": "builtin",
+      "dependencies": {}
+    },
+    "com.unity.modules.particlesystem": {
+      "version": "1.0.0",
+      "depth": 0,
+      "source": "builtin",
+      "dependencies": {}
+    },
+    "com.unity.modules.physics": {
+      "version": "1.0.0",
+      "depth": 0,
+      "source": "builtin",
+      "dependencies": {}
+    },
+    "com.unity.modules.physics2d": {
+      "version": "1.0.0",
+      "depth": 0,
+      "source": "builtin",
+      "dependencies": {}
+    },
+    "com.unity.modules.screencapture": {
+      "version": "1.0.0",
+      "depth": 0,
+      "source": "builtin",
+      "dependencies": {
+        "com.unity.modules.imageconversion": "1.0.0"
+      }
+    },
+    "com.unity.modules.terrain": {
+      "version": "1.0.0",
+      "depth": 2,
+      "source": "builtin",
+      "dependencies": {}
+    },
+    "com.unity.modules.tilemap": {
+      "version": "1.0.0",
+      "depth": 1,
+      "source": "builtin",
+      "dependencies": {
+        "com.unity.modules.physics2d": "1.0.0"
+      }
+    },
+    "com.unity.modules.ui": {
+      "version": "1.0.0",
+      "depth": 0,
+      "source": "builtin",
+      "dependencies": {}
+    },
+    "com.unity.modules.uielements": {
+      "version": "1.0.0",
+      "depth": 0,
+      "source": "builtin",
+      "dependencies": {
+        "com.unity.modules.ui": "1.0.0",
+        "com.unity.modules.imgui": "1.0.0",
+        "com.unity.modules.jsonserialize": "1.0.0",
+        "com.unity.modules.hierarchycore": "1.0.0",
+        "com.unity.modules.physics": "1.0.0"
+      }
+    },
+    "com.unity.modules.umbra": {
+      "version": "1.0.0",
+      "depth": 0,
+      "source": "builtin",
+      "dependencies": {}
+    },
+    "com.unity.modules.unityanalytics": {
+      "version": "1.0.0",
+      "depth": 0,
+      "source": "builtin",
+      "dependencies": {
+        "com.unity.modules.unitywebrequest": "1.0.0",
+        "com.unity.modules.jsonserialize": "1.0.0"
+      }
+    },
+    "com.unity.modules.unitywebrequest": {
+      "version": "1.0.0",
+      "depth": 0,
+      "source": "builtin",
+      "dependencies": {}
+    },
+    "com.unity.modules.unitywebrequestassetbundle": {
+      "version": "1.0.0",
+      "depth": 0,
+      "source": "builtin",
+      "dependencies": {
+        "com.unity.modules.assetbundle": "1.0.0",
+        "com.unity.modules.unitywebrequest": "1.0.0"
+      }
+    },
+    "com.unity.modules.unitywebrequestaudio": {
+      "version": "1.0.0",
+      "depth": 0,
+      "source": "builtin",
+      "dependencies": {
+        "com.unity.modules.unitywebrequest": "1.0.0",
+        "com.unity.modules.audio": "1.0.0"
+      }
+    },
+    "com.unity.modules.unitywebrequesttexture": {
+      "version": "1.0.0",
+      "depth": 0,
+      "source": "builtin",
+      "dependencies": {
+        "com.unity.modules.unitywebrequest": "1.0.0",
+        "com.unity.modules.imageconversion": "1.0.0"
+      }
+    },
+    "com.unity.modules.unitywebrequestwww": {
+      "version": "1.0.0",
+      "depth": 0,
+      "source": "builtin",
+      "dependencies": {
+        "com.unity.modules.unitywebrequest": "1.0.0",
+        "com.unity.modules.unitywebrequestassetbundle": "1.0.0",
+        "com.unity.modules.unitywebrequestaudio": "1.0.0",
+        "com.unity.modules.audio": "1.0.0",
+        "com.unity.modules.assetbundle": "1.0.0",
+        "com.unity.modules.imageconversion": "1.0.0"
+      }
+    },
+    "com.unity.modules.video": {
+      "version": "1.0.0",
+      "depth": 0,
+      "source": "builtin",
+      "dependencies": {
+        "com.unity.modules.audio": "1.0.0",
+        "com.unity.modules.ui": "1.0.0",
+        "com.unity.modules.unitywebrequest": "1.0.0"
+      }
+    }
+  }
+}

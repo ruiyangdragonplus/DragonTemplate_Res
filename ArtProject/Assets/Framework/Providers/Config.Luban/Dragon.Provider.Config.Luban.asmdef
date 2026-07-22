@@ -1,0 +1,19 @@
+{
+  "name": "Dragon.Provider.Config.Luban",
+  "rootNamespace": "Dragon.Provider.ConfigLuban",
+  "references": [
+    "Dragon.Core",
+    "UniTask"
+  ],
+  "includePlatforms": [],
+  "excludePlatforms": [],
+  "allowUnsafeCode": false,
+  "overrideReferences": false,
+  "precompiledReferences": [],
+  "autoReferenced": false,
+  "defineConstraints": [
+    "DRAGON_CONFIG_LUBAN"
+  ],
+  "versionDefines": [],
+  "noEngineReferences": false
+}

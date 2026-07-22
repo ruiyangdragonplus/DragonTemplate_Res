@@ -6,18 +6,19 @@
 
 ```
 Res/
-├── Assets/
-│   ├── Art/
-│   │   └── Modules/<ModuleName>/   # 模块资源按此归组（YooAsset Collector 每模块一个 Group）
-│   ├── Audio/
-│   ├── UI/
-│   ├── Configs/                    # Luban 输出 JSON（生成物，进 YooAsset 包）
-│   └── Localization/
-├── Luban/
-│   ├── Tables/<ModuleName>.xlsx    # 源表按模块分文件（配置的唯一源头）
-│   ├── luban.conf
-│   └── gen.sh                      # 唯一生成入口 → JSON 进 Assets/Configs/，partial C# 进主工程 Config/Generated/
-└── res_manifest.json               # Res→Game 声明式同步映射（Tools/sync_res.sh 与 -task SyncRes 共用）
+├── ArtProject/                     # ★ 美术工程（母体，克隆即可用 Unity 打开）
+│   ├── Assets/
+│   │   ├── Res/                    #   美术资源真实源（主工程 junction 指进来）
+│   │   │   └── Art/Modules/<模块>/ #   模块资源按此归组
+│   │   ├── Configs/                #   Luban 输出 JSON（真实源）
+│   │   ├── Framework/ Game/        #   空壳代码区（0 字节 .cs 保 GUID，逻辑在混淆 DLL）
+│   │   ├── Editor/UpdateScripts.cs #   「更新代码」按钮（Toolbar+菜单+30s 自动检查）
+│   │   └── Resources/ Scene/ ThirdParty/ SDKLink/
+│   ├── Packages/  ProjectSettings/
+│   └── UpdateScripts.bat / .sh
+├── Obfuscated/                     # dll 流水线产物：Dll/（混淆程序集）+ Files/（壳）+ version
+├── Luban/                          # 源表 + gen.sh（配置唯一源头）
+└── res_manifest.json               # Res→主工程 声明式链接映射
 ```
 
 ## 美术工程（无明文代码）
@@ -25,15 +26,15 @@ Res/
 主仓 dll 流水线（`Jenkins/dll.jenkinsfile`）会把 ExportDllFixGuid + Obfuscar 产物推送到本仓 `Obfuscated/`：
 `Dll/`（混淆后的全部程序集 + GUID 映射）+ `Files/`（工程壳：**空 .cs + 原 GUID meta** + 场景/设置/ThirdParty）。
 
-美术 clone 本仓库后执行 `Tools/setup_art_project.sh`，组装出可用 Unity 打开的 `ArtProject/`：
-业务/框架代码只有混淆 DLL（无明文），美术资源经目录链接指向本仓 `Assets/Res` 真实源——改完直接 git 提交。
-
-> ⚠️ 首次投产前需联调：prefab 脚本引用的 GUID 映射重写（DllGuidMap/unity-art-encrypt）与空壳 asmdef
-> 同名冲突处理，见 setup_art_project.sh 内注释。
+美术 clone 本仓库后直接用 Unity 打开 `ArtProject/`（无需任何初始化脚本）。
+工作流：编辑器 Toolbar 右侧「更新代码」按钮（或 Tools 菜单；每 30 秒自动检查出小红点）——
+把 `Obfuscated/Dll` 覆盖到 `Library/ScriptAssemblies`（DLL 不进 Assets，MonoScript 保持与主工程一致的
+源码 GUID，零转换绑定），并同步 `Obfuscated/Files` 壳。首次打开后点一次「更新代码」再重开即生效。
+资源改动物理落在本仓库工作区，git add/commit 直接提交。
 
 ## 同步模式：link（默认）与 mirror
 
-- **link**：主工程内的 `Game/Assets/Game/{Configs,Localization,Art}` 是指向本仓库对应目录的**目录链接**
+- **link**：主工程内的 `Game/Assets/{Res,Config,ProtocolMap}` 是指向本仓库/Proto 输出的**目录链接**
   （Windows junction / Mac symlink，由 `Tools/sync_res.sh` 依 res_manifest.json 自动建立）。
   在主工程 Unity 里修改这些资源 = 直接修改本仓库工作区文件，`cd Res && git add && git commit` 即可提交——
   与现有项目的软链工作流一致，只是链接关系收敛到清单统一管理。资源与 .meta 都提交在本仓库。

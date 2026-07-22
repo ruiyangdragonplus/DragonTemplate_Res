@@ -1,0 +1,19 @@
+{
+    "name": "Dragon.Provider.Analytics.Debug",
+    "rootNamespace": "Dragon.Provider.AnalyticsDebug",
+    "references": [
+        "Dragon.Core",
+        "UniTask"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": false,
+    "defineConstraints": [
+        "DRAGON_ANALYTICS_DEBUG"
+    ],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

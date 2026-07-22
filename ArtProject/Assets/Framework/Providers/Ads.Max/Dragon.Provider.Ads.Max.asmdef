@@ -1,0 +1,19 @@
+{
+  "name": "Dragon.Provider.Ads.Max",
+  "rootNamespace": "Dragon.Provider.AdsMax",
+  "references": [
+    "Dragon.Core",
+    "UniTask"
+  ],
+  "includePlatforms": [],
+  "excludePlatforms": [],
+  "allowUnsafeCode": false,
+  "overrideReferences": false,
+  "precompiledReferences": [],
+  "autoReferenced": false,
+  "defineConstraints": [
+    "DRAGON_ADS_MAX"
+  ],
+  "versionDefines": [],
+  "noEngineReferences": false
+}

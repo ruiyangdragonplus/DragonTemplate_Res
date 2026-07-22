@@ -1,0 +1,27 @@
+{
+    "name": "Game.Gameplay",
+    "rootNamespace": "Game.Gameplay",
+    "references": [
+        "Dragon.Core",
+        "Dragon.Framework",
+        "Dragon.Launcher",
+        "Game.Boot",
+        "Game.Config",
+        "Game.Model",
+        "Game.Protocol",
+        "Game.Shared",
+        "Game.Ext",
+        "UniTask",
+        "Game.Framework",
+        "Unity.TextMeshPro"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<linker>
+    <assembly fullname="FastExpressionCompiler" preserve="all"/>
+    <assembly fullname="FluentValidation" preserve="all"/>
+    <assembly fullname="System.Linq.Dynamic.Core" preserve="all"/>
+    <assembly fullname="RulesEngine" preserve="all"/>
+    <assembly fullname="netstandard">
+        <namespace fullname="System.Linq.Expressions" preserve="all"/>
+        <namespace fullname="System.Text.RegularExpressions" preserve="all" />
+    </assembly>
+</linker>

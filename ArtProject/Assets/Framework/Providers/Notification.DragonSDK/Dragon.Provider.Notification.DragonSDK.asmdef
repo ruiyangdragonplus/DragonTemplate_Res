@@ -1,0 +1,19 @@
+{
+  "name": "Dragon.Provider.Notification.DragonSDK",
+  "rootNamespace": "Dragon.Provider.NotificationDragonSDK",
+  "references": [
+    "Dragon.Core",
+    "UniTask"
+  ],
+  "includePlatforms": [],
+  "excludePlatforms": [],
+  "allowUnsafeCode": false,
+  "overrideReferences": false,
+  "precompiledReferences": [],
+  "autoReferenced": false,
+  "defineConstraints": [
+    "DRAGON_NOTIFICATION_DRAGONSDK"
+  ],
+  "versionDefines": [],
+  "noEngineReferences": false
+}

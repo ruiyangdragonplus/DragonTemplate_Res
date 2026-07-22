@@ -1,0 +1,36 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1386491679 &1
+PresetManager:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_DefaultPresets:
+  - first:
+      m_NativeTypeID: 1006
+      m_ManagedTypePPtr: {fileID: 0}
+      m_ManagedTypeFallback: 
+    second:
+    - m_Preset: {fileID: 2655988077585873504, guid: 1c76205a6316e4ea695ad57b7ef99eb0, type: 2}
+      m_Filter: glob:"Res/Launcher/**"
+      m_Disabled: 0
+    - m_Preset: {fileID: 2655988077585873504, guid: 349fc6bea1eda44d1a7c9e5e85d864ea, type: 2}
+      m_Filter: glob:"Res/*/Art/UI/*/Textures/**"
+      m_Disabled: 0
+    - m_Preset: {fileID: 2655988077585873504, guid: 349fc6bea1eda44d1a7c9e5e85d864ea, type: 2}
+      m_Filter: glob:"Res/*/Art/UI/*/Texture/**"
+      m_Disabled: 0
+    - m_Preset: {fileID: 2655988077585873504, guid: 1c76205a6316e4ea695ad57b7ef99eb0, type: 2}
+      m_Filter: glob:"Res/*/Code/UI/*/Textures/**"
+      m_Disabled: 0
+    - m_Preset: {fileID: 2655988077585873504, guid: 1c76205a6316e4ea695ad57b7ef99eb0, type: 2}
+      m_Filter: glob:"Res/*/Code/UI/*/Texture/**"
+      m_Disabled: 0
+    - m_Preset: {fileID: 2655988077585873504, guid: b2271d19a90894efb875ca1028fb5329, type: 2}
+      m_Filter: glob:"Res/GamePlay/Art/Particle/Textures/**"
+      m_Disabled: 0
+    - m_Preset: {fileID: 2655988077585873504, guid: 79a79319b91b04572b36548691105161, type: 2}
+      m_Filter: glob:"Res/*/Art/Spine/**"
+      m_Disabled: 0
+    - m_Preset: {fileID: 2655988077585873504, guid: 1c76205a6316e4ea695ad57b7ef99eb0, type: 2}
+      m_Filter: glob:"Assets/Res/Building/Art/Texture/**"
+      m_Disabled: 0

@@ -1,0 +1,19 @@
+{
+    "name": "Dragon.Framework.Editor",
+    "rootNamespace": "Dragon.Framework.Editor",
+    "references": [
+        "Dragon.Core",
+        "Dragon.Framework"
+    ],
+    "includePlatforms": [
+        "Editor"
+    ],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

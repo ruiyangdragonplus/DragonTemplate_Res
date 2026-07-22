@@ -1,0 +1,26 @@
+{
+    "name": "Game.Framework",
+    "rootNamespace": "",
+    "references": [
+        "GUID:6055be8ebefd69e48b49212b09b47b2f",
+        "GUID:e34a5702dd353724aa315fb8011f08c3",
+        "GUID:60bfecf5cb232594891bc622f40d6bed",
+        "GUID:653080b30138243d39514bb4d4fc48af",
+        "GUID:68765d262e2128e4ab49c983f3411946",
+        "GUID:72d1fea872bd7a449bf3818f2b0a6708",
+        "GUID:f51ebe6a0ceec4240a699833d6309b23",
+        "GUID:ac145e6b8c6034cdbadc8c6e26aedbcf",
+        "GUID:1e8e55397bd004beaba78a667566665f",
+        "GUID:d71139be5ab9e4bb49bc95f8093014e9",
+        "GUID:08d1c582746949b40ba6a45cdb776bdf"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

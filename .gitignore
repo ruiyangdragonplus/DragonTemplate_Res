@@ -6,3 +6,11 @@
 [Uu]serSettings/
 .DS_Store
 Thumbs.db
+
+# 美术工程派生目录
+ArtProject/[Ll]ibrary/
+ArtProject/[Tt]emp/
+ArtProject/[Ll]ogs/
+ArtProject/[Uu]serSettings/
+ArtProject/*.csproj
+ArtProject/*.sln

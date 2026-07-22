@@ -1,0 +1,21 @@
+{
+    "name": "HybridCLR.Extensions.Editor",
+    "rootNamespace": "",
+    "references": [
+        "GUID:13ba8ce62aa80c74598530029cb2d649",
+        "GUID:2373f786d14518f44b0f475db77ba4de",
+        "GUID:18b30148afccf49fdb25cd823000d4f7",
+        "GUID:79ae06a80a216477e8c4649f7b7880e4"
+    ],
+    "includePlatforms": [
+        "Editor"
+    ],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}
