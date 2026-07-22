@@ -8,6 +8,9 @@ using UnityEditor;
 using UnityEditor.Callbacks;
 using UnityEngine;
 using UnityEngine.UIElements;
+#if UNITY_6000_3_OR_NEWER
+using UnityEditor.Toolbars; // Unity 6000.3 官方主工具栏 API（旧反射注入的 m_Root 已成废树，见下）
+#endif
 using Debug = UnityEngine.Debug;
 using Object = UnityEngine.Object;
 
@@ -29,8 +32,10 @@ public static class UpdateScripts
 
     private static readonly Regex s_PercentRegex = new Regex(@"(\d+)(.?)(\d*)%");
 
+#if !UNITY_6000_3_OR_NEWER
     private static Type             s_toolbarType = typeof(Editor).Assembly.GetType("UnityEditor.Toolbar");
     private static ScriptableObject s_currentToolbar;
+#endif
 
     private static DateTime s_NextAutoCheckUpdateTime;
     private static Process  s_UpdateProcess;
@@ -45,13 +50,56 @@ public static class UpdateScripts
         EditorApplication.update -= AutoCheckVersion;
         EditorApplication.update += AutoCheckVersion;
 
+#if !UNITY_6000_3_OR_NEWER
+        // 旧版：反射注入 Toolbar.m_Root（6000.3 起该树已分离不上屏，改走官方 API，见下方 MainToolbarElement）
         EditorApplication.update -= CreateToolbarButton;
         EditorApplication.update += CreateToolbarButton;
+#endif
 
         s_NextAutoCheckUpdateTime = DateTime.Now;
     }
 
     #region Toolbar
+
+#if UNITY_6000_3_OR_NEWER
+    // ═══ Unity 6000.3+：官方 MainToolbar API（[MainToolbarElement] 注册，Overlay 化主工具栏）═══
+    private const string kToolbarElementPath = "Dragon/更新代码";
+
+    [MainToolbarElement(kToolbarElementPath, defaultDockPosition = MainToolbarDockPosition.Right)]
+    public static MainToolbarElement CreateUpdateDropdown()
+    {
+        string text = s_IsAnythingNeedToUpdate ? "更新代码 ●" : "更新代码";
+        string tooltip = s_IsAnythingNeedToUpdate ? "代码库有更新，点击操作" : "美术工程代码库更新";
+        var content = new MainToolbarContent(text, null, tooltip);
+        return new MainToolbarDropdown(content, ShowUpdateMenu);
+    }
+
+    private static void ShowUpdateMenu(Rect buttonRect)
+    {
+        var menu = new GenericMenu();
+        bool busy = s_IsUpdating || EditorApplication.isPlayingOrWillChangePlaymode;
+        if (busy)
+            menu.AddDisabledItem(new GUIContent("立即更新"));
+        else
+            menu.AddItem(new GUIContent("立即更新"), false, ExecuteUpdate);
+        menu.AddItem(new GUIContent("自动更新"), AutoUpdate, () => { AutoUpdate = !AutoUpdate; });
+        menu.AddSeparator("");
+        menu.AddItem(new GUIContent("还原引擎"), false, () =>
+        {
+            if (EditorUtility.DisplayDialog("还原引擎", "还原后美术库将无法运行，确定要还原吗？", "确定", "好吧，那算了"))
+                RevertFromEncryptVersionUnity();
+        });
+        menu.DropDown(buttonRect);
+    }
+
+    /// <summary>红点状态变化时刷新工具栏元素。</summary>
+    private static void RefreshToolbarElement()
+    {
+        try { MainToolbar.Refresh(kToolbarElementPath); }
+        catch { /* MainToolbar 可能尚未就绪 */ }
+    }
+#else
+    private static void RefreshToolbarElement() { }
 
     private static void CreateToolbarButton()
     {
@@ -129,6 +177,7 @@ public static class UpdateScripts
 
         GUI.enabled = guiEnable;
     }
+#endif // !UNITY_6000_3_OR_NEWER
 
     /// <summary>
     /// 执行更新代码操作（封装后的公共方法）
@@ -187,6 +236,7 @@ public static class UpdateScripts
         s_UpdateProcess.Dispose();
         EditorApplication.update -= CheckVersionBackground;
         s_IsAnythingNeedToUpdate =  DoCompareVersion();
+        RefreshToolbarElement();
         Debug.Log($"代码自动检查更新完毕！\r\n{s_UpdateLogger}");
     }
 
@@ -211,6 +261,7 @@ public static class UpdateScripts
         }
 
         s_IsAnythingNeedToUpdate = DoCompareVersion();
+        RefreshToolbarElement();
     }
 
     private static Process StartUpdateProgress(Action<string> onLog)
@@ -309,6 +360,7 @@ public static class UpdateScripts
 
             EditorUtility.DisplayDialog(ProgressBarTitle, "更新完毕！", "ok");
             s_IsAnythingNeedToUpdate = false;
+            RefreshToolbarElement();
         }
         catch (Exception e)
         {
